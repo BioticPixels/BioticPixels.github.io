@@ -58,6 +58,10 @@ body {
     font-family:  'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    
+    position: fixed;
+    left: 50%;
+    top: 50%;
 }
 
 h1, h2, h3, h4, h5, h6 {
