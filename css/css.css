@@ -45,6 +45,12 @@ table {
 
 /* Main Styles */
 
+html {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
 body {
     color:#373737;
     background: #FFFFFF;
@@ -52,11 +58,6 @@ body {
     font-family:  'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    
-    padding: auto;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
 }
 
 h1, h2, h3, h4, h5, h6 {
