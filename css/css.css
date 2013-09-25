@@ -98,7 +98,8 @@ a {
 }
 
 h1, p {
-    text-align: justify;
+    text-align: center;
+    vertical-align: middle
 }
 
 em {
