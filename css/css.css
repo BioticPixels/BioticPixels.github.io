@@ -97,9 +97,10 @@ a {
     color: #007edf;
 }
 
-h1, p {
+div {
+    vertical-align: middle;
+    display: table-cell;
     text-align: center;
-    vertical-align: middle
 }
 
 em {
