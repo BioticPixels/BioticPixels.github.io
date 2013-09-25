@@ -48,7 +48,7 @@ table {
 body {
     color:#373737;
     background: #FFFEF7;
-    font-size: 14px;
+    font-size: 24px;
     font-family:  'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
@@ -95,6 +95,10 @@ p {
 a {
     text-decoration: none;
     color: #007edf;
+}
+
+h1, p {
+    margin: auto;
 }
 
 em {
@@ -153,10 +157,6 @@ ol li {
 }
 
 /* Specific Styles */
-
-#header {
-    margin: auto;
-}
 
 /* Small Device Styles */
 
