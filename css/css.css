@@ -64,7 +64,7 @@ body {
 }
 
 div {
-    height: 100%;
+    vertical-align: middle;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +78,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 100px;
     font-weight: 700;
-    vertical-align: middle;
 }
 
 h2 {
