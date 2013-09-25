@@ -45,12 +45,6 @@ table {
 
 /* Main Styles */
 
-html {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
 body {
     color:#373737;
     background: #FFFFFF;
@@ -59,8 +53,11 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     
-    position: fixed;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
     height: 100%;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
