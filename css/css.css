@@ -47,7 +47,7 @@ table {
 
 body {
     color:#373737;
-    background: #212121;
+    background: #FFFEF7;
     font-size: 14px;
     font-family:  'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
     line-height: 1.5;
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 100px;
     font-weight: 700;
 }
 
@@ -95,16 +95,6 @@ p {
 a {
     text-decoration: none;
     color: #007edf;
-}
-
-#main_content a:hover {
-    color: #0069ba;
-    text-shadow: #0090ff 0px 0px 2px;
-}
-
-footer a:hover {
-    color: #43adff;
-    text-shadow: #0090ff 0px 0px 2px;
 }
 
 em {
@@ -139,11 +129,6 @@ code {
   padding: 3px;
   margin: 0 3px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-
-pre code {
-  display: block;
-  box-shadow: none;
 }
 
 blockquote {
