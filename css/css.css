@@ -100,8 +100,8 @@ a {
 div {
     padding: auto;
     display: table-cell;
-    width: auto;
-    height: auto;
+    width: 1000px;
+    height: 1000px;
     text-align: center;
     vertical-align: middle;
 }
