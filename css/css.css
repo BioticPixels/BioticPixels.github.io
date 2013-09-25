@@ -52,6 +52,11 @@ body {
     font-family:  'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    
+    padding: auto;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,15 +100,6 @@ p {
 a {
     text-decoration: none;
     color: #007edf;
-}
-
-div {
-    padding: auto;
-    display: table-cell;
-    width: 1000px;
-    height: 1000px;
-    text-align: center;
-    vertical-align: middle;
 }
 
 em {
