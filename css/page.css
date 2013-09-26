@@ -63,7 +63,6 @@ Main Styles
 
 html {
     display: table-cell;
-    text-align: center;
     height: 100%;
 }
 
@@ -74,6 +73,8 @@ body {
     font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    
+    text-align: center;
 }
 
 div {
@@ -89,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 100px;
     font-weight: 700;
 }
 
