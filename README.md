@@ -1,1 +1,1 @@
-## [Biotic Pixels](bioticpixels.com "bioticpixels.com") ##
+## [Biotic Pixels](http://bioticpixels.com "bioticpixels.com") ##
