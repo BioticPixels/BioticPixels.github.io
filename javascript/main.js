@@ -37,7 +37,7 @@
         
         for (var i = 0; i < block.length; i++) {
             if (block[i].selectorText.toLowerCase() === "h1") {
-                if (windowWidth >= 253) {
+                if (windowWidth >= 253) { // Renders text folding on the index page impossible (notwithstanding future modification)
                     block[i].style.fontSize = String(lineAlgebraTitle) + "px";
                     
                     // Space between the main title and the links.
