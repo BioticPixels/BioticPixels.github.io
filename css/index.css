@@ -78,51 +78,37 @@ body {
 }
 
 div {
+    /*
+    Unconvensional styles that ensures the text within the div remains in the centre of the screen.
+    Required for variably sized fonts (meaning the dimensions of the container cannot be known or defined).
+    1 major drawback is text does not fold correctly, however in is application this is unnecessary and has been rendered impossible using a little JavaScript (and CSS vw units as fall back).
+    */
     margin: auto;
-    position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     position: fixed;
     height: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    color:#222222;
-    font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
-}
-
 h1 {
-    margin-top: -1.5vw;
-    padding-bottom: 4vw;
-    
     font-size: 6vw;
     font-weight: 700;
+    color:#222222;
+    
+    /*
+    Styles required to avoid the title and links from overlapping, resulting from the container div's height being 0.
+    */
+    margin-top: -1.5vw;
+    padding-bottom: 4vw;
 }
 
-h2 {
-    padding-bottom: 10px;
-    font-size: 5vw;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-h4 {
-    font-size: 21px;
-}
-
-h5 {
-    font-size: 18px;
-}
-
-h6 {
-    font-size: 16px;
-}
-
-p {
+nav, a, ul, li {
     font-size: 1vw;
-    margin: 10px 0 15px 0;
+    margin: 10px 0 15px 0px;
+}
+
+a, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -130,49 +116,10 @@ a {
     color: #007edf;
 }
 
-pre, code {
-    width: 100%;
-    color: #222;
-    background-color: #fff;
-
-    font-family: Consolas, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    font-size: 14px;
-
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
+ul {
+    list-style-type: none;
 }
 
-pre {
-  width: 100%;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-  overflow: auto;
-}
-
-code {
-  padding: 3px;
-  margin: 0 3px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-
-blockquote {
-  color: #666;
-  margin-bottom: 20px;
-  padding: 0 0 0 20px;
-  border-left: 3px solid #bbb;
-}
-
-ul, ol, dl {
-  margin-bottom: 15px
-}
-
-ul li {
-  list-style: inside;
-  padding-left: 20px;
-}
-
-ol li {
-  list-style: decimal inside;
-  padding-left: 20px;
+li {
+    display: inline;
 }
