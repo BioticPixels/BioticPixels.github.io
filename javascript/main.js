@@ -51,7 +51,7 @@
                     block[i].style.marginTop = String(windowWidth / 100 * -5) + "px";
                     block[i].style.paddingBottom = String(windowWidth / 100 * 14) + "px";
                 }
-            } else if (block[i].selectorText.toLowerCase() === "nav, a, ul, li") {
+            } else if (block[i].selectorText.toLowerCase() === "p, nav, a, ul, li") {
                 if (windowWidth >= 253) {
                     block[i].style.fontSize = String(lineAlgebraText) + "px";
                 } else {
