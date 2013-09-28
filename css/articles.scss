@@ -178,12 +178,14 @@ ul, ol, dl {
     font-size: inherit;
 }
 
+ul li, ol li {
+    padding-left: 2rem;
+}
+
 ul li {
     list-style: circle;
-    padding-left: 2rem;
 }
 
 ol li {
     list-style: decimal;
-    padding-left: 2rem;
 }

@@ -58,6 +58,9 @@
             ],
             ["blockquote, ul, ol, dl",
                 ["marginBottom", 1]
+            ],
+            ["ul li, ol li",
+                ["paddingLeft", 1]
             ]
         ]
     ];

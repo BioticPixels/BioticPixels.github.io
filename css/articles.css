@@ -137,10 +137,11 @@ ul, ol, dl {
   padding-top: inherit;
   font-size: inherit; }
 
-ul li {
-  list-style: circle;
+ul li, ol li {
   padding-left: 2rem; }
 
+ul li {
+  list-style: circle; }
+
 ol li {
-  list-style: decimal;
-  padding-left: 2rem; }
+  list-style: decimal; }
