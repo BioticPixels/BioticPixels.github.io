@@ -57,10 +57,11 @@
                 ["marginTop", 1]
             ],
             ["blockquote, ul, ol, dl",
-                ["marginBottom", 1]
+                ["marginBottom", 1],
+                ["paddingLeft", 2]
             ],
             ["ul li, ol li",
-                ["paddingLeft", 1]
+                ["paddingLeft", 0.5]
             ]
         ]
     ];
