@@ -10,42 +10,42 @@
     ArticlesScaling.parameters = [
         [
             [0, 0],
-            25,
-            [300, 40],
+            20,
+            [300, 30],
             ["h1, h2, h3, h4, h5, h6",
                 ["fontSize", 1]
             ],
             ["h1",
-                ["fontSize", 0.9]
+                ["fontSize", 1]
             ],
             ["h2",
-                ["fontSize", 0.8]
+                ["fontSize", 0.85]
             ],
             ["h3",
                 ["fontSize", 0.7]
             ],
             ["h4",
-                ["fontSize", 0.6]
+                ["fontSize", 0.55]
             ],
             ["h5",
-                ["fontSize", 0.5]
+                ["fontSize", 0.4]
             ],
             ["h6",
-                ["fontSize", 0.4]
+                ["fontSize", 0.25]
             ]
         ],
         [
             [0, 0],
-            300,
-            [300, 400],
+            275,
+            [300, 350],
             ["body",
                 ["maxWidth", 1]
             ]
         ],
         [
             [0, 0],
-            13,
-            [256, 14],
+            10,
+            [256, 12],
             ["body",
                 ["fontSize", 1],
                 ["paddingTop", 1],
