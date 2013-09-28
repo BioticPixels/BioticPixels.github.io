@@ -89,10 +89,12 @@ body {
     font-size: 1vw;
 }
 
+$textColour: #222222;
+
 h1, h2, h3, h4, h5, h6 {
     margin-top: 2vw;
     font-weight: 700;
-    color: #222222;
+    color: $textColour;
     font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
     letter-spacing: 0px;
 }
@@ -123,6 +125,9 @@ h6 {
 
 hr {
     margin-top: 0.75vw;
+    border-style: solid;
+    border-color: $textColour;
+    border-top-width: 0.1vw;
 }
 
 p {
@@ -151,6 +156,7 @@ pre, code {
 
 pre {
     padding-top: inherit;
+    line-break: normal;
 }
 
 code {
@@ -165,16 +171,17 @@ blockquote {
 }
 
 ul, ol, dl {
+    padding-top: inherit;
     font-size: inherit;
     margin-bottom: 1vw;
 }
 
 ul li {
-    list-style: circle inside;
+    list-style: circle;
     padding-left: 2vw;
 }
 
 ol li {
-    list-style: decimal inside;
-    padding-left: 1vw;
+    list-style: decimal;
+    padding-left: 2vw;
 }
