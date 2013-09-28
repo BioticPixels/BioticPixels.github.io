@@ -19,19 +19,19 @@
                 ["fontSize", 1]
             ],
             ["h2",
-                ["fontSize", 0.85]
+                ["fontSize", (1 / 6 * 5)]
             ],
             ["h3",
-                ["fontSize", 0.7]
+                ["fontSize", (1 / 6 * 4)]
             ],
             ["h4",
-                ["fontSize", 0.55]
+                ["fontSize", (1 / 6 * 3)]
             ],
             ["h5",
-                ["fontSize", 0.4]
+                ["fontSize", (1 / 6 * 2)]
             ],
             ["h6",
-                ["fontSize", 0.25]
+                ["fontSize", (1 / 6 * 1)]
             ]
         ],
         [

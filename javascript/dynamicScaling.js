@@ -11,6 +11,8 @@
     //----------
     // @TODO Improve API (getter and setters?)
     // @TODO Create ability to change non-numeric values, for example `text-align: justify;` to `text-align: none;`
+    // @TODO Extract the bezier function for use in other places, not just dynamicScaling(). quadraticBezierCurve()
+    // @TODO Extract the line function for use in other places, not just dynamicScaling(). line() or possible linearBeziarCurve() depending on which formular is used
     //
     // Important: CSS must **not** contain styles with more than one value assigned, such as `margin: 10 20 5 15;`
     //
