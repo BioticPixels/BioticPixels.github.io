@@ -124,7 +124,7 @@ h6 {
 }
 
 hr {
-    margin-top: 0.75vw;
+    margin-top: 1vw;
     border-style: solid;
     border-color: $textColour;
     border-top-width: 0.1vw;
@@ -163,25 +163,27 @@ code {
 
 }
 
+blockquote, ul, ol, dl {
+    margin-bottom: 1vw;
+}
+
 blockquote {
     color: #666;
-    margin-bottom: 1vw;
     padding-left: 2vw;
-    border-left: 0.3vw solid #bbb;
+    border-left: 0.3rem solid #bbb;
 }
 
 ul, ol, dl {
     padding-top: inherit;
     font-size: inherit;
-    margin-bottom: 1vw;
 }
 
 ul li {
     list-style: circle;
-    padding-left: 2vw;
+    padding-left: 2rem;
 }
 
 ol li {
     list-style: decimal;
-    padding-left: 2vw;
+    padding-left: 2rem;
 }

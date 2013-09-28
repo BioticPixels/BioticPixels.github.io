@@ -38,7 +38,6 @@
 
                 // Retrieve external CSS styles (assumes there is only one stylesheet as the title attributes is an empty string, making it difficult to distinguish between them)
                 var css = document.styleSheets[0];
-                console.log(css);
                 var block = css.cssRules ? css.cssRules : css.rules;
 
                 var windowWidth = window.innerWidth;

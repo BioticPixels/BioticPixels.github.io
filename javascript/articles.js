@@ -5,7 +5,7 @@
 (function () {
 
     "use strict";
-    
+
     var ArticlesScaling = Object.create(DynamicScaling);
     ArticlesScaling.parameters = [
         [
@@ -36,13 +36,28 @@
         ],
         [
             [0, 0],
+            800,
+            [50, 40],
+            ["body",
+                ["maxWidth", 1]
+            ]
+        ],
+        [
+            [0, 0],
             13,
             [256, 14],
             ["body",
-                ["fontSize", 1]
+                ["fontSize", 1],
+                ["paddingTop", 1],
+                ["paddingRight", 1],
+                ["paddingLeft", 1]
             ],
             ["hr",
-                ["marginTopWidth", 0.1]
+                ["borderTopWidth", 0.1],
+                ["marginTop", 1]
+            ],
+            ["blockquote, ul, ol, dl",
+                ["marginBottom", 1]
             ]
         ]
     ];
