@@ -18,10 +18,10 @@
     //
     // Must create 'dynamicScalingParameters' variable following the following prototype:
     //
-    //[[[float windowWidthKey (value of 0 recommended), float fontSizeKey0 (value of 0 recommended)], float fontSizeKey1 (steepness of line - relative to minimumFontSizeKey), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumFontSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier], [...]], [...]], [...]]
+    //[[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier], [...]], [...]], [...]]
     //
     // Looping key
-    // [<curves>[<p0>[<windowWidthKey>x, <fontSizeKey>y], <b>p1, <p2>[<minimumWindowWidthKey>x, <minimumFontSizeKey>y], <styles>[selector, <properties>[property, modifier], [...]], [...]], [...]]
+    // [<curves>[<p0>[<windowWidthKey>x, <sizeKey>y], <b>p1, <p2>[<minimumWindowWidthKey>x, <minimumSizeKey>y], <styles>[selector, <properties>[property, modifier], [...]], [...]], [...]]
 
     Object.defineProperty(Object.prototype, 'DynamicScaling', {
         value: {
