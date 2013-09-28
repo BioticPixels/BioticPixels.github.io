@@ -6,8 +6,8 @@
 
     "use strict";
 
-    var IndexScaling = Object.create(DynamicScaling);
-    IndexScaling.parameters = [
+    var ArticlesScaling = Object.create(DynamicScaling);
+    ArticlesScaling.parameters = [
         [
             [0, 0],
             25,
@@ -18,19 +18,19 @@
             ["h1",
                 ["fontSize", 0.9]
             ],
-            ["h1",
+            ["h2",
                 ["fontSize", 0.8]
             ],
-            ["h1",
+            ["h3",
                 ["fontSize", 0.7]
             ],
-            ["h1",
+            ["h4",
                 ["fontSize", 0.6]
             ],
-            ["h1",
+            ["h5",
                 ["fontSize", 0.5]
             ],
-            ["h1",
+            ["h6",
                 ["fontSize", 0.4]
             ]
         ],
@@ -44,8 +44,8 @@
         ]
     ];
 
-    IndexScaling.scale();
+    ArticlesScaling.scale();
 
-    window.onresize = function (event) {IndexScaling.scale(event)}; // JavaScript, it is as beautiful as it is mystical http://stackoverflow.com/questions/183214/javascript-callback-scope
+    window.onresize = function (event) {ArticlesScaling.scale(event)}; // JavaScript, it is as beautiful as it is mystical http://stackoverflow.com/questions/183214/javascript-callback-scope
 
 }());
