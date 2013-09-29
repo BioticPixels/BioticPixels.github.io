@@ -53,7 +53,7 @@
                 ["paddingLeft", 1]
             ],
             ["p",
-                ["textAlign", ["none", "justify"]]
+                ["textAlign", ["left", "justify"]]
             ],
             ["hr",
                 ["borderTopWidth", 0.1],

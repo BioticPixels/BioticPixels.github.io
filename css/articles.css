@@ -124,7 +124,7 @@ pre, code {
 
 pre {
   padding-top: inherit;
-  line-break: normal; }
+  white-space: normal; }
 
 blockquote, ul, ol, dl {
   margin-bottom: 1vw;
