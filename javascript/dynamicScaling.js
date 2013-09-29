@@ -66,10 +66,10 @@
                                 for (var propertiesCounter = 1; propertiesCounter < this.parameters[curvesCounter][stylesCounter].length; propertiesCounter++) { // For every property
 
                                     var property = this.parameters[curvesCounter][stylesCounter][propertiesCounter][0];
-                                    var modifier = this.parameters[curvesCounter][stylesCounter][propertiesCounter][1] || 1; // @TODO if === 0, throw error
+                                    var modifier = this.parameters[curvesCounter][stylesCounter][propertiesCounter][1]; // @TODO if === 0, throw error
                                     console.log(modifier);
 
-                                    if (modifier && isNaN(modifier)) {
+                                    if (modifier && isNaN(modifier)) { // @TODO Should be improved
                                         if (windowWidth < p2X) {
                                             block[blockCounter].style[property] = modifier[0]; // @TODO Validation?
                                         } else {
