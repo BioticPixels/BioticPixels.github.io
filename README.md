@@ -3,4 +3,5 @@
 [Twitter](http://twitter.com/bioticpixels "twitter.com/bioticpixels") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels")
 
 - @TODO articles/index.html
-- @TODO Maybe convert /articles/ to /projects/ 
+- @TODO Maybe convert /articles/ to /projects/
+- @TODO Fix 404 page
