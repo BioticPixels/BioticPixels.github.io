@@ -4,3 +4,4 @@
 
 - @TODO articles/index.html
 - @TODO Maybe convert /articles/ to /projects/
+- @TODO favicon.ico
