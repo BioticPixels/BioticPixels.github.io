@@ -4,4 +4,3 @@
 
 - @TODO articles/index.html
 - @TODO Maybe convert /articles/ to /projects/
-- @TODO Fix 404 page
