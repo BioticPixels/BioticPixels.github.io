@@ -17,7 +17,7 @@
     // Important: CSS must **not** contain styles with more than one value assigned, such as `margin: 10 20 5 15;`
     //
     // Simple callback function that ensures that fonts scale correctly for all devices - something not possible with the CSS vw units, and more elegant that @media.
-    // Utilises quadratic bezier curve (y = (1 - t)^2"p0" + 2(1 - t)t"p1" + t^2"p2", where t is progress between p0 and p2 ε [0, 1]) and linear equation (y = m * x + b, where x is windowWidth)
+    // Utilises quadratic bezier curve (y = (1 - t)^2"p0" + 2(1 - t)t"p1" + t^2"p2", where t is progress between p0 and p2 ε [0, 1] (http://en.wikipedia.org/wiki/Bézier_curve)) and linear equation (y = m * x + b, where x is windowWidth)
     //
     // Must create 'dynamicScalingParameters' variable following the following prototype:
     //
@@ -98,4 +98,3 @@
         configurable: false
     });
 }());
-

@@ -2,6 +2,7 @@
 ----------
 Biotic Pixels 28 September 2013 06:36:06
 ----------
+@TODO Make code (incline and blocks) more obvious
 */
 
 /*
@@ -158,11 +159,10 @@ pre, code {
 
 pre {
     padding-top: inherit;
-    white-space: normal;
 }
 
-code {
-
+pre code {
+    white-space: normal;
 }
 
 blockquote, ul, ol, dl {
