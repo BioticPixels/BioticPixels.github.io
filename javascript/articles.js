@@ -13,11 +13,12 @@
             20,
             [300, 30],
             ["h1, h2, h3, h4, h5, h6",
-                ["fontSize", 1]
+                ["fontSize", 1],
+                ["marginTop", 0.3]
             ],
             ["h1",
                 ["fontSize", 1],
-                ["marginBottom", 0.1]
+                ["marginBottom", 0.3]
             ],
             ["h2",
                 ["fontSize", (1 / 6 * 5)]
