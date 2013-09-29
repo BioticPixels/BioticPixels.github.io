@@ -56,8 +56,8 @@
                 ["textAlign", ["left", "justify"]]
             ],
             ["hr",
-                ["borderTopWidth", 0.1],
-                ["marginTop", 1]
+                ["marginTop", 1],
+                ["borderTopWidth", 0.1]
             ],
             ["blockquote, ul, ol, dl",
                 ["marginBottom", 1],

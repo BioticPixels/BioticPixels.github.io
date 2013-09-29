@@ -10,7 +10,7 @@
     // fontResize
     //----------
     // @TODO Improve API (getter and setters?)
-    // @TODO Create ability to change non-numeric values, for example `text-align: justify;` to `text-align: none;`
+    // @TODO Improve ability to change non-numeric values, for example `text-align: justify;` to `text-align: none;`
     // @TODO Extract the bezier function for use in other places, not just dynamicScaling(). quadraticBezierCurve()
     // @TODO Extract the line function for use in other places, not just dynamicScaling(). line() or possible linearBeziarCurve() depending on which formular is used
     //
@@ -21,7 +21,7 @@
     //
     // Must create 'dynamicScalingParameters' variable following the following prototype:
     //
-    //[[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier (should not be 0)], [...]], [...]], [...]]
+    //[[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier (should not be 0) | <modifier>[string value0, string value1]], [...]], [...]], [...]]
     //
     // Looping key
     // [<curves>[<p0>[<windowWidthKey>x, <sizeKey>y], <b>p1, <p2>[<minimumWindowWidthKey>x, <minimumSizeKey>y], <styles>[selector, <properties>[property, modifier], [...]], [...]], [...]]
@@ -67,9 +67,8 @@
 
                                     var property = this.parameters[curvesCounter][stylesCounter][propertiesCounter][0];
                                     var modifier = this.parameters[curvesCounter][stylesCounter][propertiesCounter][1]; // @TODO if === 0, throw error
-                                    console.log(modifier);
 
-                                    if (modifier && isNaN(modifier)) { // @TODO Should be improved
+                                    if (modifier && isNaN(modifier)) { // @TODO Improve
                                         if (windowWidth < p2X) {
                                             block[blockCounter].style[property] = modifier[0]; // @TODO Validation?
                                         } else {
