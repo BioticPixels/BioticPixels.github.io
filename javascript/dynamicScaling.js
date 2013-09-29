@@ -21,7 +21,7 @@
     //
     // Must create 'dynamicScalingParameters' variable following the following prototype:
     //
-    //[[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier], [...]], [...]], [...]]
+    //[[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier (should not be 0)], [...]], [...]], [...]]
     //
     // Looping key
     // [<curves>[<p0>[<windowWidthKey>x, <sizeKey>y], <b>p1, <p2>[<minimumWindowWidthKey>x, <minimumSizeKey>y], <styles>[selector, <properties>[property, modifier], [...]], [...]], [...]]
@@ -66,17 +66,27 @@
                                 for (var propertiesCounter = 1; propertiesCounter < this.parameters[curvesCounter][stylesCounter].length; propertiesCounter++) { // For every property
 
                                     var property = this.parameters[curvesCounter][stylesCounter][propertiesCounter][0];
-                                    var modifier = this.parameters[curvesCounter][stylesCounter][propertiesCounter][1];
+                                    var modifier = this.parameters[curvesCounter][stylesCounter][propertiesCounter][1] || 1; // @TODO if === 0, throw error
+                                    console.log(modifier);
 
-                                    if (windowWidth >= p0X && windowWidth < p2X) { // Do quadratic bezier curve algebra
-                                        var t = windowWidth / p2X; // t is just the percentage progress between p0 and p2 represented as a number between 0 and 1
-                                        var algebra = (this.square(1 - t)) * p0Y + (2 * (1 - t) * t * p1Y) + (this.square(t)) * p2Y;
-                                    } else { // Do line algebra
-                                        var algebra = ((p2Y - p1Y) / p2X) * windowWidth + p1Y;
+                                    if (modifier && isNaN(modifier)) {
+                                        if (windowWidth < p2X) {
+                                            block[blockCounter].style[property] = modifier[0]; // @TODO Validation?
+                                        } else {
+                                            block[blockCounter].style[property] = modifier[1]; // @TODO Validation?
+                                        }
+                                    } else {
+                                        var algebra;
+
+                                        if (windowWidth >= p0X && windowWidth < p2X) { // Do quadratic bezier curve algebra
+                                            var t = windowWidth / p2X; // t is just the percentage progress between p0 and p2 represented as a number between 0 and 1
+                                            algebra = (this.square(1 - t)) * p0Y + (2 * (1 - t) * t * p1Y) + (this.square(t)) * p2Y;
+                                        } else { // Do line algebra
+                                            algebra = ((p2Y - p1Y) / p2X) * windowWidth + p1Y;
+                                        }
+
+                                        block[blockCounter].style[property] = String(algebra * modifier) + "px";
                                     }
-
-                                    block[blockCounter].style[property] = String(algebra * modifier) + "px";
-
                                 }
                             }
                         }

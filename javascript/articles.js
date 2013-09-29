@@ -52,6 +52,9 @@
                 ["paddingRight", 1],
                 ["paddingLeft", 1]
             ],
+            ["p",
+                ["textAlign", ["none", "justify"]]
+            ],
             ["hr",
                 ["borderTopWidth", 0.1],
                 ["marginTop", 1]
