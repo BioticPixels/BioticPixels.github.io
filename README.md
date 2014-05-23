@@ -2,7 +2,8 @@ Date: 26 September 2013 10:04:00
 
 # [Biotic Pixels](http://bioticpixels.com "bioticpixels.com")
 
-[Twitter](http://twitter.com/bioticpixels "twitter.com/bioticpixels") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels")<!-- | [Supporting](http://bioticpixels.com/supporting.html "bioticpixels.com/supporting")-->
+[Twitter](http://twitter.com/bioticpixels "twitter.com/bioticpixels") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels")
+<!-- | [Supporting](http://bioticpixels.com/supporting.html "bioticpixels.com/supporting")-->
 
 - @TODO articles/index.html
 - @TODO Maybe convert /articles/ to /projects/
