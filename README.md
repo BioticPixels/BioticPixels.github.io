@@ -1,4 +1,4 @@
-Date: 26 September 2013 10:04:00
+<!-- Date: 26 September 2013 10:04:00 -->
 
 # [Biotic Pixels](http://bioticpixels.com "bioticpixels.com")
 
