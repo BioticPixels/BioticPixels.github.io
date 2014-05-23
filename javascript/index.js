@@ -15,6 +15,9 @@
             ["h1",
                 ["fontSize", 1], ["marginTop", -0.7], ["paddingBottom", 0.8]
             ],
+            ["#bioticPixelsImage",
+                ["height", 2.5], ["width", 2.5], ["marginTop", -2.7], ["paddingBottom", 1.3]
+            ],
             ["#articles",
                 ["top", 0.2]
             ]
@@ -23,8 +26,11 @@
             [0, 0],
             13,
             [256, 14],
-            ["p, nav, a, ul, li",
+            ["p, nav, a, ul, li, form",
                 ["fontSize", 1]
+            ],
+            ["#supporting input",
+                ["width", 5]
             ]
         ]
     ];

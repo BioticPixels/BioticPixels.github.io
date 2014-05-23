@@ -19,7 +19,7 @@
     // Simple callback function that ensures that fonts scale correctly for all devices - something not possible with the CSS vw units, and more elegant that @media.
     // Utilises quadratic bezier curve (y = (1 - t)^2"p0" + 2(1 - t)t"p1" + t^2"p2", where t is progress between p0 and p2 ε [0, 1] (http://en.wikipedia.org/wiki/Bézier_curve)) and linear equation (y = m * x + b, where x is windowWidth)
     //
-    // Must create 'dynamicScalingParameters' variable following the following prototype:
+    // Must create 'dynamicScalingParameters' variable compliant with the following prototype:
     //
     //[[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier (should not be 0) | <modifier>[string value0, string value1]], [...]], [...]], [...]]
     //
@@ -60,8 +60,9 @@
                         for (var stylesCounter = 3; stylesCounter < this.parameters[curvesCounter].length; stylesCounter++) { // For every style
 
                             var selector = this.parameters[curvesCounter][stylesCounter][0];
-
-                            if (block[blockCounter].selectorText.toLowerCase() === selector) { // For every code block in the external CSS file
+                          
+                            // @attention Was block block[blockCounter].selectorText.toLowerCase(), but this stopped id name comparisons from working - not including toLowerCase() may cause a problem.
+                            if (block[blockCounter].selectorText === selector) { // For every code block in the external CSS file
 
                                 for (var propertiesCounter = 1; propertiesCounter < this.parameters[curvesCounter][stylesCounter].length; propertiesCounter++) { // For every property
 

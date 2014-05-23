@@ -97,6 +97,13 @@ div {
     height: 0;
 }
 
+#bioticPixelsImage {
+    height: 20vw;
+    width: 20vw;
+    margin-top: -20vw;
+    padding-bottom: 11vw;
+}
+
 h1 {
     font-size: 6vw;
     font-weight: 700;
@@ -109,7 +116,7 @@ h1 {
     padding-bottom: 4vw;
 }
 
-p, nav, a, ul, li {
+p, nav, a, ul, li, form {
     font-size: 1vw;
     line-height: 1.3;
 }
@@ -124,7 +131,7 @@ nav {
     top: 0.5em;
     line-height: 1.3;
     /*
-    Apparently padding-left and padding-right effect the vertical spacing instead of horizontal spacing (padding-top or padding-bottom being ineffective in this regar - same with margins) for whatever reason - could be useful
+    Apparently padding-left and padding-right effect the vertical spacing instead of horizontal spacing (padding-top or padding-bottom being ineffective in this regard - same with margins) for whatever reason - could be useful
     */
 
     padding-left: 5vw;
@@ -143,8 +150,9 @@ a {
 
 h1 a {
     font-size: inherit;
-    margin: inherit;
-    padding: inherit;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
 }
 
 p {
@@ -159,4 +167,39 @@ ul {
 
 li {
     display: inline;
+}
+
+#supporting {
+    text-align: center;
+    margin: 0;
+}
+
+#supporting p {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    margin-top: 0;
+    padding: 0;
+}
+
+/*
+@TODO 11 March 2014 06:44:23 Can't get the DynamicScaling JavaScript to work in supporting.scss - try copy and pasting them, it really should work but for some reason it doesn't (tried with @import and without - perhaps something with the way css is retrieved by the DOM function/how it's stored in the DOM)
+#TODO Improve the CSS to remove repeated styles (including in index, articles, and supporting)
+*/
+#donating h1 {
+    display: none;
+}
+
+#donating form {
+    margin-top: 1vw;
+}
+
+#donating {
+    top: -10em;
+    display: inline;
+    max-width: 800px;
+}
+
+#donating input {
+    width: 100%;
+    height: auto;
 }
