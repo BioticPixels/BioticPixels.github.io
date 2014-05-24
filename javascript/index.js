@@ -16,7 +16,7 @@
                 ["fontSize", 1], ["marginTop", -0.7], ["paddingBottom", 0.8]
             ],
             ["#bioticPixelsImage",
-                ["height", 2.5], ["width", 2.5], ["marginTop", -2.7], ["paddingBottom", 1.3]
+                ["height", 2.5], ["width", 2.5], ["marginTop", -2.2], ["paddingBottom", 1.3]
             ],
             ["#articles",
                 ["top", 0.2]
