@@ -9,10 +9,11 @@
     //----------
     // fontResize
     //----------
-    // @TODO Improve API (getter and setters?)
+    // @TODO Improve API (getter and setters?).
     // @TODO Improve ability to change non-numeric values, for example `text-align: justify;` to `text-align: none;`
-    // @TODO Extract the bezier function for use in other places, not just dynamicScaling(). quadraticBezierCurve()
-    // @TODO Extract the line function for use in other places, not just dynamicScaling(). line() or possible linearBeziarCurve() depending on which formular is used
+    // @TODO Extract the bezier function for use in other places, not just dynamicScaling(). quadraticBezierCurve().
+    // @TODO Extract the line function for use in other places, not just dynamicScaling(). line() or possible linearBeziarCurve() depending on which formular is used.
+    // @TODO Should take height into account (does not function well on landscape smart phones) (whether the height or width is used should be based on ratio between them (should use the smallest)).
     //
     // Important: CSS must **not** contain styles with more than one value assigned, such as `margin: 10 20 5 15;`
     //
