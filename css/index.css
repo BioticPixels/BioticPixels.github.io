@@ -185,6 +185,11 @@ li {
 @TODO 11 March 2014 06:44:23 Can't get the DynamicScaling JavaScript to work in supporting.scss - try copy and pasting them, it really should work but for some reason it doesn't (tried with @import and without - perhaps something with the way css is retrieved by the DOM function/how it's stored in the DOM)
 #TODO Improve the CSS to remove repeated styles (including in index, articles, and supporting)
 */
+
+/*
+@TODO Javascript does not function selectors in media queries.
+*/
+
 #donating h1 {
     display: none;
 }

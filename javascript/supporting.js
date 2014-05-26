@@ -15,6 +15,9 @@
             ["p, nav, a, ul, li, form",
                 ["fontSize", 1]
             ],
+            ["#bioticPixelsImage",
+                ["height", 6], ["width", 6], ["marginTop", -3.3], ["paddingBottom", 1.3]
+            ],
             ["#donating",
                 ["top", -15]
             ],

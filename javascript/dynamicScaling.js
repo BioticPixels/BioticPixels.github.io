@@ -15,6 +15,8 @@
     // @TODO Extract the line function for use in other places, not just dynamicScaling(). line() or possible linearBeziarCurve() depending on which formular is used.
     // @TODO Should take height into account (does not function well on landscape smart phones) (whether the height or width is used should be based on ratio between them (should use the smallest)).
     //
+    // Note that with multiple line paragraphs, when words change line due to scaling, the size of the scaled fonts 'jumps' - this normal.
+    //
     // Important: CSS must **not** contain styles with more than one value assigned, such as `margin: 10 20 5 15;`
     //
     // Simple callback function that ensures that fonts scale correctly for all devices - something not possible with the CSS vw units, and more elegant that @media.
@@ -61,7 +63,7 @@
                         for (var stylesCounter = 3; stylesCounter < this.parameters[curvesCounter].length; stylesCounter++) { // For every style
 
                             var selector = this.parameters[curvesCounter][stylesCounter][0];
-                          
+
                             // @attention Was block block[blockCounter].selectorText.toLowerCase(), but this stopped id name comparisons from working - not including toLowerCase() may cause a problem.
                             if (block[blockCounter].selectorText === selector) { // For every code block in the external CSS file
 
