@@ -16,13 +16,13 @@
                 ["fontSize", 1]
             ],
             ["#bioticPixelsImage",
-                ["height", 6], ["width", 6], ["marginTop", -3.3], ["paddingBottom", 1.3]
+                ["height", 10], ["width", 10], ["marginTop", -5.5], ["paddingBottom", 0]
             ],
             ["#donating",
                 ["top", -15]
             ],
             ["#donating form",
-                ["marginTop", 0.5]
+                ["marginTop", 0.4]
             ],
             ["#donating input",
                 ["width", 5]
