@@ -24,7 +24,17 @@
     //
     // Must create 'dynamicScalingParameters' variable compliant with the following prototype:
     //
-    //[[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier (should not be 0) | <modifier>[string value0, string value1]], [...]], [...]], [...]]
+    // [[[float windowWidthKey (value of 0 recommended), float sizeKey0 (value of 0 recommended)], float sizeKey1 (steepness of line - relative to minimumSizeKey, also the y intersect), [float maximumWindowWidthKey (for bezier scaling to take effect), float minimumSizeKey (before bezier scaling takes place), [string selector, [string property (properties to effect), float modifier (should not be 0) | <modifier>[string value0, string value1]], [...]], [...]], [...]]
+    //
+    //    [
+    //        [0, 0], // Window width key, size key 0.
+    //        25, // Size key 1 (steepness of line - relative to minimum size key).
+    //        [300, 40], // Maximum window width key (for bezier scaling to take place), minimum size key (for bezier scaling to take place).
+    //        ["selector", // Selector.
+    //            ["property", 1], … // Property, modifier.
+    //        ],
+    //        …
+    //    ]
     //
     // Looping key
     // [<curves>[<p0>[<windowWidthKey>x, <sizeKey>y], <b>p1, <p2>[<minimumWindowWidthKey>x, <minimumSizeKey>y], <styles>[selector, <properties>[property, modifier], [...]], [...]], [...]]

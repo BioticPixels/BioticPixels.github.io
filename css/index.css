@@ -107,7 +107,7 @@ div {
 h1 {
     font-size: 6vw;
     font-weight: 700;
-    color: #222222;
+    color: rgb(35, 35, 35);
 
     /*
     Styles required to avoid the title and links from overlapping, resulting from the container div's height being 0.

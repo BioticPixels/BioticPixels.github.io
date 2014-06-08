@@ -15,9 +15,6 @@
             ["h1",
                 ["fontSize", 1], ["marginTop", -0.7], ["paddingBottom", 0.8]
             ],
-            ["#bioticPixelsImage",
-                ["paddingBottom", 1.4]
-            ],
             ["#articles",
                 ["top", 0.2]
             ]
@@ -27,8 +24,16 @@
             25,
             [1100, 80],
             ["#bioticPixelsImage",
-                ["height", 2.5], ["width", 2.5], ["marginTop", -2.2]
+                ["height", 4], ["width", 4], ["marginTop", -2.8]
              ]
+        ],
+        [
+            [0, 0],
+            25,
+            [300, 30],
+            ["#bioticPixelsImage",
+                ["paddingBottom", 1.4]
+            ]
         ],
         [
             [0, 0],
