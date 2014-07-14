@@ -7,13 +7,15 @@
     "use strict";
 
     //----------
-    // fontResize
+    // Dynamic scaling
     //----------
     // @TODO Improve API (getter and setters?).
     // @TODO Improve ability to change non-numeric values, for example `text-align: justify;` to `text-align: none;`
     // @TODO Extract the bezier function for use in other places, not just dynamicScaling(). quadraticBezierCurve().
-    // @TODO Extract the line function for use in other places, not just dynamicScaling(). line() or possible linearBeziarCurve() depending on which formular is used.
+    // @TODO Extract the line function for use in other places, not just dynamicScaling(). line() or possible linearBezierCurve() depending on which formula is used.
     // @TODO Should take height into account (does not function well on landscape smart phones) (whether the height or width is used should be based on ratio between them (should use the smallest)).
+    // @TODO To ensure that a scroll-bar is included, could just dynamically scale top margin, width, and font size (rather than unconventional auto CSS etc. (height not restricted)).
+    // @TODO Technically could scale anything.
     //
     // Note that with multiple line paragraphs, when words change line due to scaling, the size of the scaled fonts 'jumps' - this normal.
     //

@@ -88,13 +88,13 @@ div {
     Unconventional styles that ensures the text within the div remains in the centre of the screen.
     Required for variably sized fonts (meaning the dimensions of the container cannot be known or defined).
     */
-    margin: auto;
+    /*margin: auto;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: fixed;
-    height: 0;
+    height: 0;*/
 }
 
 #bioticPixelsImage {
@@ -116,7 +116,9 @@ h1 {
     padding-bottom: 4vw;
 }
 
-p, nav, a, ul, li, form {
+p, nav, a, ul, li, form, input {
+    font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-size: 1vw;
     line-height: 1.3;
 }
@@ -131,7 +133,7 @@ nav {
     top: 0.5em;
     line-height: 1.3;
     /*
-    Apparently padding-left and padding-right effect the vertical spacing instead of horizontal spacing (padding-top or padding-bottom being ineffective in this regard - same with margins) for whatever reason - could be useful
+    Apparently padding-left and padding-right effect the vertical spacing instead of horizontal spacing (padding-top or padding-bottom being ineffective in this regard - same with margins) for whatever reason - could be useful.
     */
 
     padding-left: 5vw;
@@ -169,42 +171,48 @@ li {
     display: inline;
 }
 
-#supporting {
-    text-align: center;
-    margin: 0;
-}
-
-#supporting p {
-    margin-left: 0.3em;
-    margin-right: 0.3em;
-    margin-top: 0;
-    padding: 0;
-}
-
 /*
 @TODO 11 March 2014 06:44:23 Can't get the DynamicScaling JavaScript to work in supporting.scss - try copy and pasting them, it really should work but for some reason it doesn't (tried with @import and without - perhaps something with the way css is retrieved by the DOM function/how it's stored in the DOM)
-#TODO Improve the CSS to remove repeated styles (including in index, articles, and supporting)
+@TODO Improve the CSS to remove repeated styles (including in index, articles, and supporting)
 */
 
 /*
 @TODO Javascript does not function selectors in media queries.
 */
 
-#donating h1 {
+/*
+@TODO 14 July 2014 09:25:26 Text positions in index.html and supporting.html are slightly different.
+*/
+
+#donating h2 {
     display: none;
 }
 
 #donating form {
-    margin-top: 1vw;
-}
-
-#donating {
-    top: -10em;
     display: inline;
-    max-width: 800px;
 }
 
-#donating input {
-    width: 100%;
+#donating #inlineP {
+    display: inline;
+    padding: 0;
+}
+
+#bioticPixelsImageLink {
+    line-height: 0;
+}
+
+#donating input[type='submit'] {
+    border: none;
+    color: #007edf;
+    background: none;
+    padding: 0;
+    text-decoration: line-through;
+    width: auto;
     height: auto;
+}
+#donating input:hover {
+    cursor: pointer;
+}
+#donating input:active {
+
 }

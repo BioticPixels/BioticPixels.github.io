@@ -13,7 +13,7 @@
             25,
             [300, 40],
             ["h1",
-                ["fontSize", 1], ["marginTop", -0.7], ["paddingBottom", 0.8]
+                ["fontSize", 1], ["marginTop", -0.7], ["paddingBottom", 0.76]
             ],
             ["#articles",
                 ["top", 0.2]
@@ -24,8 +24,8 @@
             25,
             [1100, 80],
             ["#bioticPixelsImage",
-                ["height", 4], ["width", 4], ["marginTop", -2.8]
-             ]
+                ["height", 4], ["width", 4], ["marginTop", 1]
+            ]
         ],
         [
             [0, 0],
@@ -39,11 +39,8 @@
             [0, 0],
             13,
             [256, 14],
-            ["p, nav, a, ul, li, form",
+            ["p, nav, a, ul, li, form, input",
                 ["fontSize", 1]
-            ],
-            ["#supporting input",
-                ["width", 5]
             ]
         ]
     ];
