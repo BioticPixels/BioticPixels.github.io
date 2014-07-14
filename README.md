@@ -13,4 +13,4 @@
 - @TODO Add table of contents button to articles
 - @TODO Fix articles.css
 
-All research and development currently undertaken by Biotic Pixels is purely funded by sponsorship, donations, and grants. Any form of support is welcome. [Supporting](http://bioticpixels.com/supporting.html bioticpixels.com/supporting"
+All research and development currently undertaken by Biotic Pixels is purely funded by sponsorship, donations, and grants. Any form of support is welcome. [Supporting](http://bioticpixels.com/supporting.html bioticpixels.com/supporting")
