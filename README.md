@@ -2,7 +2,7 @@
 
 # [Biotic Pixels](http://bioticpixels.com "bioticpixels.com")
 
-[Twitter](http://twitter.com/bioticpixels "twitter.com/bioticpixels") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels") | [Supporting](http://bioticpixels.com/supporting.html "bioticpixels.com/supporting")
+<!--[Twitter](http://twitter.com/bioticpixels "twitter.com/bioticpixels") | -->[Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels") | [Supporting](http://bioticpixels.com/supporting.html "bioticpixels.com/supporting")
 
 - @TODO articles/index.html
 - @TODO Maybe convert /articles/ to /projects/
@@ -12,5 +12,3 @@
 - @TODO Remove file types from URLs (such as .html) (possible with GitHub websites?)
 - @TODO Add table of contents button to articles
 - @TODO Fix articles.css
-
-All research and development currently undertaken by Biotic Pixels is purely funded by sponsorship, donations, and grants. Any form of support is welcome. [Supporting](http://bioticpixels.com/supporting.html bioticpixels.com/supporting")
