@@ -14,9 +14,6 @@
             [300, 40],
             ["h1",
                 ["fontSize", 1], ["marginTop", -0.7], ["paddingBottom", 0.76]
-            ],
-            ["#articles",
-                ["top", 0.2]
             ]
         ],
         [
@@ -41,12 +38,6 @@
             [256, 14],
             ["p, nav, a, ul, li, form, input",
                 ["fontSize", 1]
-            ],
-            ["#donating form",
-                ["marginTop", 0.4]
-            ],
-            ["#donating input",
-                ["width", 5]
             ]
         ]
     ];

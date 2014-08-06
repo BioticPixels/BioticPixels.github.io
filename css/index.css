@@ -180,39 +180,10 @@ li {
 @TODO Javascript does not function selectors in media queries.
 */
 
-/*
-@TODO 14 July 2014 09:25:26 Text positions in index.html and supporting.html are slightly different.
-*/
-
 #donating h2 {
     display: none;
 }
 
-#donating form {
-    display: inline;
-}
-
-#donating #inlineP {
-    display: inline;
-    padding: 0;
-}
-
 #bioticPixelsImageLink {
     line-height: 0;
-}
-
-#donating input[type='submit'] {
-    border: none;
-    color: #007edf;
-    background: none;
-    padding: 0;
-    text-decoration: line-through;
-    width: auto;
-    height: auto;
-}
-#donating input:hover {
-    cursor: pointer;
-}
-#donating input:active {
-
 }
