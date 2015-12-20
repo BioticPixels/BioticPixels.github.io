@@ -178,6 +178,9 @@ blockquote, ul, ol, dl {
 blockquote {
   color: #666;
   border-left: 0.3rem solid #bbb; }
+  
+nav {
+    display: inline; }
 
 ul, ol, dl {
   padding-top: inherit;
@@ -191,8 +194,3 @@ ul li {
 
 ol li {
   list-style: decimal; }
-  
-nav {
-    display: inline;
-    max-width: 500px;
-}
