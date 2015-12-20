@@ -171,9 +171,6 @@ pre {
 pre code {
   white-space: normal; }
 
-nav li {
-  display: inline; }
-
 blockquote, ul, ol, dl {
   /* margin-bottom: 1em; */
   padding-left: 1.5rem; }
@@ -194,3 +191,8 @@ ul li {
 
 ol li {
   list-style: decimal; }
+  
+nav li {
+  display: inline;
+  padding-left: 0rem;
+}
