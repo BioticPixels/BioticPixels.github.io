@@ -196,3 +196,7 @@ nav li {
   display: inline;
   padding-left: 0rem;
 }
+
+nav ul {
+  padding-left: 0rem;
+}
