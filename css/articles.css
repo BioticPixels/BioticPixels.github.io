@@ -191,3 +191,8 @@ ul li {
 
 ol li {
   list-style: decimal; }
+  
+nav {
+    display: inline;
+    max-width: 500px;
+}
