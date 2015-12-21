@@ -37,7 +37,7 @@
                 ["fontSize", (1 / 6 * 1)]
             ],
             ["nav",
-                ["marginBottom", 0.1]
+                ["marginBottom", 0.2]
             ]
         ],
         [
