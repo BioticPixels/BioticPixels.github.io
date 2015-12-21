@@ -19,3 +19,4 @@ Website of Biotic Pixels.
 - Add line bars for code `<code>`
 - Change trademark
 - Add trademark to articles
+- Add trademark to README.md
