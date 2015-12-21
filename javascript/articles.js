@@ -23,7 +23,8 @@
                 ["marginBottom", 0.1]
             ],
             ["h1",
-                ["fontSize", 1]
+                ["fontSize", 1],
+                ["marginTop", 1]
             ],
             ["h2",
                 ["fontSize", (1 / 6 * 5)]
@@ -41,7 +42,8 @@
                 ["fontSize", (1 / 6 * 1)]
             ],
             ["nav",
-                ["marginBottom", 0.4]
+                ["marginBottom", 0.4],
+                ["marginTop", 0.4]
             ]
         ],
         [
