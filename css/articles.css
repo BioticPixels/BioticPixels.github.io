@@ -145,7 +145,7 @@ hr {
   margin-top: 1em;
   border-style: solid;
   border-color: #222222;
-  border-top-width: 0.1em; }
+  border-width: 0.1em; }
 
 p {
   font-size: inherit;
