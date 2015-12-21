@@ -105,12 +105,12 @@ h1 {
   counter-reset: section1;
   /* Create section 1 counter scope (should only be one h1 in each document) */ }
 
-.counter h2:before {
+h2:before {
   content: counter(section1) ". ";
   counter-increment: section1; }
 
 /* Automatic section numbering - level 2 */
-.counter h2 {
+h2 {
   counter-reset: section2; }
 
 h3:before {
@@ -172,7 +172,7 @@ pre {
 pre code {
   white-space: normal;
   background-color: rgb(204, 204, 204);
-  padding: 2em; }
+  padding-left: 2em; }
 
 blockquote, ul, ol, dl {
   /* margin-bottom: 1em; */
