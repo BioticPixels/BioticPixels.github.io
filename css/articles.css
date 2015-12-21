@@ -163,8 +163,11 @@ strong {
   font-weight: bold; }
 
 pre, code {
-  font-family: Consolas, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: inherit; }
+  font-family: Consolas, Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: inherit;
+  background-color: rgb(51, 51, 51);
+  padding: 2em;
+}
 
 pre {
   padding-top: inherit; }
@@ -188,7 +191,7 @@ ul li, ol li {
   padding-left: 0.1rem; }
 
 ul li {
-  list-style: round; }
+  list-style: disc; }
 
 ol li {
   list-style: decimal; }
