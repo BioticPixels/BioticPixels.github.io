@@ -193,3 +193,6 @@ h2 {
 #bioticPixelsImageLink {
     line-height: 0;
 }
+
+div>p {
+    margin-top: 1rem;}
