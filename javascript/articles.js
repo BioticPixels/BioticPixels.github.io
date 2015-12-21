@@ -17,7 +17,7 @@
                 ["fontSize", 1],
                 ["marginTop", 0.3]
             ],
-            ["#bioticpixels",
+            ["#bioticPixels",
                 ["fontSize", 1],
                 ["marginBottom", 0.1]
             ],
