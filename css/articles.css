@@ -105,20 +105,17 @@ h1 {
   counter-reset: section1;
   /* Create section 1 counter scope (should only be one h1 in each document) */ }
 
-h2:before {
+h2:before.counter {
   content: counter(section1) ". ";
   counter-increment: section1; }
 
 /* Automatic section numbering - level 2 */
-h2 {
+h2.counter {
   counter-reset: section2; }
 
 h3:before {
   content: counter(section1) "." counter(section2) " ";
   counter-increment: section2; }
-  
-h2:before.noCounter {
-  content: "test"; }
 
 /* Automatic section numbering - level 3 */
 h3 {
