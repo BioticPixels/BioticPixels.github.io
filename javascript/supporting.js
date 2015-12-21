@@ -38,9 +38,6 @@
             [256, 14],
             ["p, nav, a, ul, li, form, input, h2",
                 ["fontSize", 1]
-            ],
-            ["#donate",
-                ["marginTop", 5]
             ]
         ]
     ];
