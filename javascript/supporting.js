@@ -40,7 +40,7 @@
                 ["fontSize", 1]
             ],
             ["#donate",
-                ["marginTop", 1]
+                ["marginTop", 5]
             ]
         ]
     ];
