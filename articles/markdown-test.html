@@ -115,16 +115,15 @@
             
             <p>For example, to add an HTML table to a Markdown article:</p>
             
-            <pre><code>    This is a regular paragraph.
-            
-                &lt;table&gt;
-                &lt;tr&gt;
-                &lt;td&gt;Foo&lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;/table&gt;
-            
-                This is another regular paragraph.
-            </code></pre>
+            <pre><code>This is a regular paragraph.
+
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;Foo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+This is another regular paragraph.</code></pre>
             
             <p>Note that Markdown formatting syntax is not processed within block-level
                 HTML tags. E.g., you can&#8217;t use Markdown-style <code>*emphasis*</code> inside an
@@ -152,13 +151,11 @@
                 write about &#8216;AT&amp;T&#8217;, you need to write &#8216;<code>AT&amp;amp;T</code>&#8217;. You even need to
                 escape ampersands within URLs. Thus, if you want to link to:</p>
             
-            <pre><code>http://images.google.com/images?num=30&amp;q=larry+bird
-            </code></pre>
+            <pre><code>http://images.google.com/images?num=30&amp;q=larry+bird</code></pre>
             
             <p>you need to encode the URL as:</p>
             
-            <pre><code>http://images.google.com/images?num=30&amp;amp;q=larry+bird
-            </code></pre>
+            <pre><code>http://images.google.com/images?num=30&amp;amp;q=larry+bird</code></pre>
             
             <p>in your anchor tag <code>href</code> attribute. Needless to say, this is easy to
                 forget, and is probably the single most common source of HTML validation
@@ -171,30 +168,25 @@
             
             <p>So, if you want to include a copyright symbol in your article, you can write:</p>
             
-            <pre><code>&amp;copy;
-            </code></pre>
+            <pre><code>&amp;copy;</code></pre>
             
             <p>and Markdown will leave it alone. But if you write:</p>
             
-            <pre><code>AT&amp;T
-            </code></pre>
+            <pre><code>AT&amp;T</code></pre>
             
             <p>Markdown will translate it to:</p>
             
-            <pre><code>AT&amp;amp;T
-            </code></pre>
+            <pre><code>AT&amp;amp;T</code></pre>
             
             <p>Similarly, because Markdown supports <a href="#html">inline HTML</a>, if you use
                 angle brackets as delimiters for HTML tags, Markdown will treat them as
                 such. But if you write:</p>
             
-            <pre><code>4 &lt; 5
-            </code></pre>
+            <pre><code>4 &lt; 5</code></pre>
             
             <p>Markdown will translate it to:</p>
             
-            <pre><code>4 &amp;lt; 5
-            </code></pre>
+            <pre><code>4 &amp;lt; 5</code></pre>
             
             <p>However, inside Markdown code spans and blocks, angle brackets and
                 ampersands are <em>always</em> encoded automatically. This makes it easy to use
@@ -237,11 +229,10 @@
                 headers) and dashes (for second-level headers). For example:</p>
             
             <pre><code>This is an H1
-                =============
-            
-                This is an H2
-                -------------
-            </code></pre>
+=============
+
+This is an H2
+-------------</code></pre>
             
             <p>Any number of underlining <code>=</code>&#8217;s or <code>-</code>&#8217;s will work.</p>
             
@@ -249,11 +240,10 @@
                 corresponding to header levels 1&#8211;6. For example:</p>
             
             <pre><code># This is an H1
-            
-                ## This is an H2
-            
-                ###### This is an H6
-            </code></pre>
+
+## This is an H2
+
+###### This is an H6</code></pre>
             
             <p>Optionally, you may &#8220;close&#8221; atx-style headers. This is purely
                 cosmetic &#8211; you can use this if you think it looks better. The
@@ -262,11 +252,10 @@
                 determines the header level.) :</p>
             
             <pre><code># This is an H1 #
-            
-                ## This is an H2 ##
-            
-                ### This is an H3 ######
-            </code></pre>
+
+## This is an H2 ##
+
+### This is an H3 ######</code></pre>
             
             <h3 id="blockquote">Blockquotes</h3>
             
@@ -276,46 +265,39 @@
                 wrap the text and put a <code>&gt;</code> before every line:</p>
             
             <pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-                &gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-                &gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-                &gt;
-                &gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-                &gt; id sem consectetuer libero luctus adipiscing.
-            </code></pre>
+&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&gt;
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+&gt; id sem consectetuer libero luctus adipiscing.</code></pre>
             
             <p>Markdown allows you to be lazy and only put the <code>&gt;</code> before the first
                 line of a hard-wrapped paragraph:</p>
             
-            <pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-                Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-            
-                &gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-                id sem consectetuer libero luctus adipiscing.
-            </code></pre>
+            <pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.</code></pre>
             
             <p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
                 adding additional levels of <code>&gt;</code>:</p>
             
             <pre><code>&gt; This is the first level of quoting.
-                &gt;
-                &gt; &gt; This is nested blockquote.
-                &gt;
-                &gt; Back to the first level.
-            </code></pre>
+&gt;
+&gt; &gt; This is nested blockquote.
+&gt;
+&gt; Back to the first level.</code></pre>
             
             <p>Blockquotes can contain other Markdown elements, including headers, lists,
                 and code blocks:</p>
             
             <pre><code>&gt; ## This is a header.
-                &gt;
-                &gt; 1. This is the first list item.
-                &gt; 2. This is the second list item.
-                &gt;
-                &gt; Here's some example code:
-                &gt;
-                &gt; return shell_exec(&quot;echo $input | $markdown_script&quot;);
-            </code></pre>
+&gt;
+&gt; 1. This is the first list item.
+&gt; 2. This is the second list item.
+&gt;
+&gt; Here's some example code:
+&gt;
+&gt; return shell_exec(&quot;echo $input | $markdown_script&quot;);</code></pre>
             
             <p>Any decent text editor should make email-style quoting easy. For
                 example, with BBEdit, you can make a selection and choose Increase
@@ -329,55 +311,48 @@
                 &#8211; as list markers:</p>
             
             <pre><code>* Red
-                * Green
-                * Blue
-            </code></pre>
+* Green
+* Blue</code></pre>
             
             <p>is equivalent to:</p>
             
             <pre><code>+ Red
-                + Green
-                + Blue
-            </code></pre>
++ Green
++ Blue</code></pre>
             
             <p>and:</p>
             
             <pre><code>- Red
-                - Green
-                - Blue
-            </code></pre>
+- Green
+- Blue</code></pre>
             
             <p>Ordered lists use numbers followed by periods:</p>
             
             <pre><code>1. Bird
-                2. McHale
-                3. Parish
-            </code></pre>
+2. McHale
+3. Parish</code></pre>
             
             <p>It&#8217;s important to note that the actual numbers you use to mark the
                 list have no effect on the HTML output Markdown produces. The HTML
                 Markdown produces from the above list is:</p>
             
             <pre><code>&lt;ol&gt;
-                &lt;li&gt;Bird&lt;/li&gt;
-                &lt;li&gt;McHale&lt;/li&gt;
-                &lt;li&gt;Parish&lt;/li&gt;
-                &lt;/ol&gt;
-            </code></pre>
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;McHale&lt;/li&gt;
+&lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
             
             <p>If you instead wrote the list in Markdown like this:</p>
             
             <pre><code>1. Bird
-                1. McHale
-                1. Parish
-            </code></pre>
+1. McHale
+1. Parish</code></pre>
             
             <p>or even:</p>
             
             <pre><code>3. Bird
-                1. McHale
-                8. Parish
-            </code></pre>
+1. McHale
+8. Parish</code></pre>
             
             <p>you&#8217;d get the exact same HTML output. The point is, if you want to,
                 you can use ordinal numbers in your ordered Markdown lists, so that
@@ -394,108 +369,84 @@
             
             <p>To make lists look nice, you can wrap items with hanging indents:</p>
             
-            <pre><code>* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-                viverra nec, fringilla in, laoreet vitae, risus.
-                * Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-                Suspendisse id sem consectetuer libero luctus adipiscing.
-            </code></pre>
+            <pre><code>* Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+* Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing. </code></pre>
             
             <p>But if you want to be lazy, you don&#8217;t have to:</p>
             
-            <pre><code>* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-                viverra nec, fringilla in, laoreet vitae, risus.
-                * Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-                Suspendisse id sem consectetuer libero luctus adipiscing.
-            </code></pre>
+            <pre><code>* Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+* Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.</code></pre>
             
             <p>If list items are separated by blank lines, Markdown will wrap the
                 items in <code>&lt;p&gt;</code> tags in the HTML output. For example, this input:</p>
             
             <pre><code>* Bird
-                * Magic
-            </code></pre>
+* Magic</code></pre>
             
             <p>will turn into:</p>
             
             <pre><code>&lt;ul&gt;
-                &lt;li&gt;Bird&lt;/li&gt;
-                &lt;li&gt;Magic&lt;/li&gt;
-                &lt;/ul&gt;
-            </code></pre>
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;Magic&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
             
             <p>But this:</p>
             
             <pre><code>* Bird
-            
-                * Magic
-            </code></pre>
+
+* Magic</code></pre>
             
             <p>will turn into:</p>
             
             <pre><code>&lt;ul&gt;
-                &lt;li&gt;&lt;p&gt;Bird&lt;/p&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;p&gt;Magic&lt;/p&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-            </code></pre>
+&lt;li&gt;&lt;p&gt;Bird&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Magic&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
             
             <p>List items may consist of multiple paragraphs. Each subsequent
                 paragraph in a list item must be indented by either 4 spaces
                 or one tab:</p>
             
-            <pre><code>1. This is a list item with two paragraphs. Lorem ipsum dolor
-                sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-                mi posuere lectus.
-            
-                Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-                vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-                sit amet velit.
-            
-                2. Suspendisse id sem consectetuer libero luctus adipiscing.
-            </code></pre>
-            
+            <pre><code>1. This is a list item with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus. Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+
+2. Suspendisse id sem consectetuer libero luctus adipiscing.</code></pre>
+
             <p>It looks nice if you indent every line of the subsequent
                 paragraphs, but here again, Markdown will allow you to be
                 lazy:</p>
             
             <pre><code>* This is a list item with two paragraphs.
-            
-                This is the second paragraph in the list item. You're
-                only required to indent the first line. Lorem ipsum dolor
-                sit amet, consectetuer adipiscing elit.
-            
-                * Another item in the same list.
-            </code></pre>
+
+This is the second paragraph in the list item. You're only required to indent the first line. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+* Another item in the same list.</code></pre>
             
             <p>To put a blockquote within a list item, the blockquote&#8217;s <code>&gt;</code>
                 delimiters need to be indented:</p>
             
             <pre><code>* A list item with a blockquote:
-            
-                &gt; This is a blockquote
-                &gt; inside a list item.
-            </code></pre>
+
+&gt; This is a blockquote
+&gt; inside a list item.</code></pre>
             
             <p>To put a code block within a list item, the code block needs
                 to be indented <em>twice</em> &#8211; 8 spaces or two tabs:</p>
             
             <pre><code>* A list item with a code block:
-            
-                &lt;code goes here&gt;
-            </code></pre>
+
+&lt;code goes here&gt;</code></pre>
             
             <p>It&#8217;s worth noting that it&#8217;s possible to trigger an ordered list by
                 accident, by writing something like this:</p>
             
-            <pre><code>1986. What a great season.
-            </code></pre>
+            <pre><code>1986. What a great season.</code></pre>
             
             <p>In other words, a <em>number-period-space</em> sequence at the beginning of a
                 line. To avoid this, you can backslash-escape the period:</p>
             
-            <pre><code>1986\. What a great season.
-            </code></pre>
+            <pre><code>1986\. What a great season.</code></pre>
             
             <h3 id="precode">Code Blocks</h3>
             
@@ -506,25 +457,23 @@
                 block by at least 4 spaces or 1 tab. For example, given this input:</p>
             
             <pre><code>This is a normal paragraph:
-            
-                This is a code block.
-            </code></pre>
+
+    This is a code block.</code></pre>
             
             <p>Markdown will generate:</p>
             
             <pre><code>&lt;p&gt;This is a normal paragraph:&lt;/p&gt;
-            
-                &lt;pre&gt;&lt;code&gt;This is a code block.
-                &lt;/code&gt;&lt;/pre&gt;
-            </code></pre>
+
+    &lt;pre&gt;&lt;code&gt;This is a code block.
+    &lt;/code&gt;&lt;/pre&gt;</code></pre>
             
             <p>One level of indentation &#8211; 4 spaces or 1 tab &#8211; is removed from each
                 line of the code block. For example, this:</p>
             
             <pre><code>Here is an example of AppleScript:
-            
-                tell application &quot;Foo&quot;
-                beep
+
+    tell application &quot;Foo&quot;
+beep
                 end tell
             </code></pre>
             
