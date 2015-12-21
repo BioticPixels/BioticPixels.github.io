@@ -113,7 +113,7 @@ h2:before {
 h2 {
   counter-reset: section2; }
   
-h2 #noCounter {
+h2 .noCounter {
   counter-increment: none;}
 
 h3:before {
