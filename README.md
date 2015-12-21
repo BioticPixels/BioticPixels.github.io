@@ -17,3 +17,5 @@ Website of Biotic Pixels.
 - Fix articles.css
 - Add line numbers for `<code>`
 - Add line bars for code `<code>`
+- Change trademark
+- Add trademark to articles
