@@ -183,7 +183,7 @@ code {
 pre code {
   display: block;
   padding: 1rem;
-  padding-top: inherit;
+  padding-top: none;
   white-space: normal;
   border: none;
   background-color: none; }
