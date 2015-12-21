@@ -474,18 +474,16 @@ This is the second paragraph in the list item. You're only required to indent th
 
     tell application &quot;Foo&quot;
 beep
-                end tell
-            </code></pre>
+    end tell</code></pre>
             
             <p>will turn into:</p>
             
             <pre><code>&lt;p&gt;Here is an example of AppleScript:&lt;/p&gt;
-            
-                &lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
-                beep
-                end tell
-                &lt;/code&gt;&lt;/pre&gt;
-            </code></pre>
+
+    &lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+    end tell
+    &lt;/code&gt;&lt;/pre&gt;</code></pre>
             
             <p>A code block continues until it reaches a line that is not indented
                 (or the end of the article).</p>
@@ -497,17 +495,15 @@ beep
                 ampersands and angle brackets. For example, this:</p>
             
             <pre><code>    &lt;div class=&quot;footer&quot;&gt;
-                &amp;copy; 2004 Foo Corporation
-                &lt;/div&gt;
-            </code></pre>
+    &amp;copy; 2004 Foo Corporation
+    &lt;/div&gt;</code></pre>
             
             <p>will turn into:</p>
             
             <pre><code>&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;
-                &amp;amp;copy; 2004 Foo Corporation
-                &amp;lt;/div&amp;gt;
-                &lt;/code&gt;&lt;/pre&gt;
-            </code></pre>
+    &amp;amp;copy; 2004 Foo Corporation
+    &amp;lt;/div&amp;gt;
+    &lt;/code&gt;&lt;/pre&gt;</code></pre>
             
             <p>Regular Markdown syntax is not processed within code blocks. E.g.,
                 asterisks are just literal asterisks within a code block. This means
@@ -521,11 +517,11 @@ beep
                 following lines will produce a horizontal rule:</p>
             
             <pre><code>* * *
-            
-                ***
-            
-                *****
-            
+
+***
+
+*****
+
                 - - -
             
                 ---------------------------------------
