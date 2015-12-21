@@ -104,9 +104,6 @@ h6 {
 h1 {
   counter-reset: section1;
   /* Create section 1 counter scope (should only be one h1 in each document) */ }
-  
-h2:before.noCounter {
-  content: none; }
 
 h2:before {
   content: counter(section1) ". ";
@@ -119,6 +116,9 @@ h2 {
 h3:before {
   content: counter(section1) "." counter(section2) " ";
   counter-increment: section2; }
+  
+h2:before.noCounter {
+  content: "test"; }
 
 /* Automatic section numbering - level 3 */
 h3 {
