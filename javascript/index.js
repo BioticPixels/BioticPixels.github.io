@@ -43,7 +43,7 @@
                 ["fontSize", 1],
                 ["paddingTop", 1]
             ]
-            ["div>p",
+            ["#main",
                 ["marginTop", 1]
             ]
         ]
