@@ -19,7 +19,7 @@
             ],
             ["h1",
                 ["fontSize", 1],
-                ["marginBottom", 0.3]
+                ["marginBottom", 0.1]
             ],
             ["h2",
                 ["fontSize", (1 / 6 * 5)]
