@@ -13,13 +13,16 @@
             [0, 0],
             20,
             [300, 30],
-            ["h1, h2, h3, h4, h5, h6",
+            ["h1, h2, h3, h4, h5, h6, #bioticpixels",
                 ["fontSize", 1],
                 ["marginTop", 0.3]
             ],
-            ["h1",
+            ["#bioticpixels",
                 ["fontSize", 1],
                 ["marginBottom", 0.1]
+            ],
+            ["h1",
+                ["fontSize", 1]
             ],
             ["h2",
                 ["fontSize", (1 / 6 * 5)]
@@ -71,6 +74,22 @@
             ],
             ["ul li, ol li",
                 ["paddingLeft", 0.5]
+            ],
+            ["pre, code",
+                ["borderWidth", 0.1],
+                ["borderRadius", 0.3]
+            ],
+            ["pre",
+                ["marginTop", 1]
+            ],
+            ["code",
+                ["paddingLeft", 0.1],
+                ["paddingRight", 0.1]
+            ],
+            ["pre code",
+                ["padding", 1],
+                ["paddingLeft", 1],
+                ["paddingRight", 1]
             ]
         ]
     ];
