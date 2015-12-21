@@ -78,7 +78,8 @@ h1, h2, h3, h4, h5, h6, #bioticPixels {
   line-height: 1.5;
   color: #222222;
   font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
-  letter-spacing: 0px; }
+  letter-spacing: 0px;
+  line-height: 1;}
 
 h1 {
   font-size: 3.5em;
@@ -174,7 +175,8 @@ pre {
   display: block;
   padding-top: none;
   margin-top: 1rem;
-  tab-size: 4; }
+  tab-size: 4;
+  word-wrap: normal; }
 
 code {
   padding: 0.1rem;}
