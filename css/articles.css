@@ -173,6 +173,7 @@ pre, code {
 
 pre {
   display: block;
+  padding-top: none;
   margin-top: 1rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;}
@@ -184,6 +185,8 @@ pre code {
   display: block;
   padding: 0.5rem;
   padding-top: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
   white-space: normal;
   border: none;
   background-color: none; }
