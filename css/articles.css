@@ -184,6 +184,7 @@ code {
   border-radius: 0.3rem; }
 
 pre code {
+  display: block;
   padding-top: inherit;
   margin-left: 1rem;
   white-space: normal;
