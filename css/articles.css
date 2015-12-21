@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5, h6, #bioticPixels {
 
 h1 {
   font-size: 3.5em;
+  margin-top: 1rem;
   }
 
 h2 {
@@ -212,7 +213,9 @@ ol li {
   list-style: decimal; }
 
 nav {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem; }
   
 nav li {
   display: inline;
