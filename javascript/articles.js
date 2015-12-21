@@ -35,6 +35,9 @@
             ],
             ["h6",
                 ["fontSize", (1 / 6 * 1)]
+            ],
+            ["nav",
+                ["marginBottom", 0.1]
             ]
         ],
         [
@@ -65,9 +68,6 @@
             ["blockquote, ul, ol, dl",
                 ["marginBottom", 1],
                 ["paddingLeft", 2]
-            ],
-            ["nav",
-                ["marginBottom", 2]
             ],
             ["ul li, ol li",
                 ["paddingLeft", 0.5]
