@@ -177,9 +177,7 @@ pre {
   tab-size: 4; }
 
 code {
-  padding-top: inherit;
-  padding-left: 0.1rem;
-  padding-right: 0.1rem; }
+  padding: 0.1rem;}
 
 pre code {
   display: block;
