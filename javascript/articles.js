@@ -24,7 +24,7 @@
             ],
             ["h1",
                 ["fontSize", 1],
-                ["marginTop", 1]
+                ["marginTop", 0.4]
             ],
             ["h2",
                 ["fontSize", (1 / 6 * 5)]
