@@ -16,7 +16,7 @@
             ["h1, h2, h3, h4, h5, h6, #bioticPixels",
                 ["fontSize", 1],
                 ["marginTop", 0.3],
-                ["lineHeight", 1]
+                ["lineHeight", 0.5]
             ],
             ["#bioticPixels",
                 ["fontSize", 1],
