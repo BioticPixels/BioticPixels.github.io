@@ -165,26 +165,26 @@ strong {
 pre, code {
   font-family: Consolas, Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: inherit;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(204);
   padding 0.1rem; }
 
 pre {
   padding-top: inherit;
-  margin-left 1rem;
+  margin-left: 1rem;
   border-style: solid;
   border-width: 0.1rem;
-  border-color: rgb(51, 51, 51);
-  border-radius: 1rem; }
+  border-color: rgb(51);
+  border-radius: 0.5rem; }
 
 code {
   border-style: solid;
   border-width: 0.1rem;
-  border-color: rgb(51, 51, 51);
-  border-radius: 1rem; }
+  border-color: rgb(51);
+  border-radius: 0.5rem; }
 
 pre code {
   white-space: normal;
-  margin-left: 1.5rem;
+  padding: 2rem;
   border: none;
 }
 
