@@ -63,7 +63,7 @@
             ],
             ["hr",
                 ["marginTop", 1],
-                ["borderWidth", 0.1]
+                ["borderWidth", 5]
             ],
             ["blockquote, ul, ol, dl",
                 ["marginBottom", 1],
