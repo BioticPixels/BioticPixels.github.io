@@ -164,16 +164,15 @@ strong {
 
 pre, code {
   font-family: Consolas, Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: inherit;
-  background-color: rgb(51, 51, 51);
-  padding: 2em;
-}
+  font-size: inherit;}
 
 pre {
   padding-top: inherit; }
 
 pre code {
-  white-space: normal; }
+  white-space: normal;
+  background-color: rgb(204, 204, 204);
+  padding: 2em; }
 
 blockquote, ul, ol, dl {
   /* margin-bottom: 1em; */
