@@ -83,7 +83,8 @@ h1, h2, h3, h4, h5, h6, #bioticPixels {
 
 h1 {
   font-size: 3.5em;
-  margin-top: 1rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
   }
 
 h2 {
