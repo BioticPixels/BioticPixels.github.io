@@ -110,10 +110,10 @@ h2:before {
   counter-increment: section1; }
 
 /* Automatic section numbering - level 2 */
-h2 {
+h2 .counter {
   counter-reset: section2; }
 
-h3:before {
+h3:before .counter {
   content: counter(section1) "." counter(section2) " ";
   counter-increment: section2; }
 
@@ -188,7 +188,7 @@ ul li, ol li {
   padding-left: 0.1rem; }
 
 ul li {
-  list-style: bullet; }
+  list-style: round; }
 
 ol li {
   list-style: decimal; }
