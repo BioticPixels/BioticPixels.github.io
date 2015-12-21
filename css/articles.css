@@ -112,6 +112,9 @@ h2:before {
 /* Automatic section numbering - level 2 */
 h2 {
   counter-reset: section2; }
+  
+h2 #noCounter {
+  counter-increment: none;}
 
 h3:before {
   content: counter(section1) "." counter(section2) " ";
