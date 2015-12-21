@@ -82,7 +82,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3.5em;
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.5em;
+  text-align: center;}
 
 h2 {
   font-size: 3em; }
@@ -191,12 +192,13 @@ ul li {
 
 ol li {
   list-style: decimal; }
+
+nav {
+  text-align: center; }
   
 nav li {
   display: inline;
-  padding-left: 0rem;
-}
+  padding-left: 0rem; }
 
 nav ul {
-  padding-left: 0rem;
-}
+  padding-left: 0rem; }
