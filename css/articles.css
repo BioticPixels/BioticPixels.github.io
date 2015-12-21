@@ -169,7 +169,8 @@ pre, code {
   padding 0.1rem; }
 
 pre {
-  padding-top: inherit;
+  display: block;
+  padding-top: none;
   margin-left: 1rem;
   border-style: solid;
   border-width: 0.1rem;
@@ -185,7 +186,7 @@ code {
 
 pre code {
   display: block;
-  padding-top: inherit;
+  padding: 1rem;
   margin-left: 1rem;
   white-space: normal;
   border: none;
