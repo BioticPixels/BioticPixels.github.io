@@ -66,6 +66,9 @@
                 ["marginBottom", 1],
                 ["paddingLeft", 2]
             ],
+            ["nav",
+                ["marginBottom", 2]
+            ],
             ["ul li, ol li",
                 ["paddingLeft", 0.5]
             ]
