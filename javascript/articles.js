@@ -63,7 +63,7 @@
             ],
             ["p",
                 ["textAlign", ["left", "justify"]],
-                ["paddingTop", 0.5]
+                ["paddingTop", 0]
             ],
             ["hr",
                 ["marginTop", 1],
