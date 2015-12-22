@@ -18,10 +18,18 @@
                 ["marginTop", 0.3],
                 ["lineHeight", 0.8]
             ],
+            ["#top",
+                ["paddingTop", 0],
+                ["paddingBottom", 0],
+                ["marginTop", 0],
+                ["marginBottom", 0]
+            ],
             ["#bioticPixels",
                 ["fontSize", 1],
-                ["paddingBottom", 2],
-                ["marginBottom", 2]
+                ["paddingTop", 0],
+                ["paddingBottom", 0],
+                ["marginTop", 0],
+                ["marginBottom", 0]
             ],
             ["#bioticPixelsImage",
                 ["height", 2],
