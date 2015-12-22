@@ -225,26 +225,14 @@ nav li {
 nav ul {
   padding-left: 0rem; }
 
-#top {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-}
-
 #bioticPixels {
-  font-size: 3.5em;
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  margin-bottom: 0.5em;
-  margin-top: 1rem;
+  font-size: 1rem;
   display: inline;}
 
 #bioticPixelsImage {
   height: 1rem;
   width: 1rem;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  margin-left: 0.1rem;
+  margin-top: -0.1rem;
+  margin-bottom: -0.6rem;
+  margin-left: 0.3rem;
   display: inline; }
