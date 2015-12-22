@@ -12,15 +12,12 @@ Website of Biotic Pixels.
 
 ### TODO
 
-- articles/index.html
-- Maybe convert /articles/ to /projects/
-- Make favicon.ico
-- Perhaps make a donation/"Supporting" page (allows links to the page for information on how to donate (such as a link on this page - a PayPal button is not possible for text documents, but a link to a page is)) (text on main page can contain a link to the "Supporting" page rather than a direct PayPal donation button) (text of the "Supporting" page can be centred and centre aligned, and in a thin column (not unlike the article page (which may only be different in the centre align aspect))
-- Add DynamicScaling to width/max-width of columns/divs (including index, supporting, and articles)
-- Add table of contents button to articles
-- Fix articles.css
-- Add line numbers for `<code>`
-- Add line bars for code `<code>`
-- Change trademark
-- Add trademark to articles
-- Add trademark to README.md
+- Maybe convert /articles/ to /projects/.
+- Update favicon.ico.
+- Should main body text of the supporting, thankyou, 404, etc. pages be centre aligned or left aligned like the article pages? Although scrolling is possible, it would only make a difference if the text was long, at which point the page would become an article. Pages such as these should only have a sentence or two on them at most.
+- Add DynamicScaling to width/max-width of columns/divs (including index, supporting, and articles).
+- Add table of contents button to articles. May be problematic for smart phones as there would need to be some way of scrolling through the menu.
+- Continue to update articles.css.
+  - Add line numbers for `<code>`.
+  - Add line bars for code `<code>`.
+- Change trademark.
