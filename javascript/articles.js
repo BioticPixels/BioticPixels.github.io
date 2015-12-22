@@ -19,7 +19,7 @@
                 ["lineHeight", 0.8]
             ],
             ["#top",
-                ["paddingTop", 0],
+                ["paddingTop", 1],
                 ["paddingBottom", 0],
                 ["marginTop", 0],
                 ["marginBottom", 0]
