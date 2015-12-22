@@ -20,8 +20,8 @@
             ],
             ["#bioticPixels",
                 ["fontSize", 1],
-                ["paddingBottom", 1],
-                ["marginBottom", 1]
+                ["paddingBottom", 2],
+                ["marginBottom", 2]
             ],
             ["#bioticPixelsImage",
                 ["height", 2],
