@@ -20,16 +20,16 @@
             ],
             ["#top",
                 ["paddingTop", 0],
-                ["paddingBottom", 1],
+                ["paddingBottom", 0],
                 ["marginTop", 0],
                 ["marginBottom", 0]
             ],
             ["#bioticPixels",
                 ["fontSize", 1],
-                ["paddingTop", 0],
-                ["paddingBottom", 0],
-                ["marginTop", 0],
-                ["marginBottom", 0]
+                ["paddingTop", 1],
+                ["paddingBottom", 1],
+                ["marginTop", 1],
+                ["marginBottom", 1]
             ],
             ["#bioticPixelsImage",
                 ["height", 2],
