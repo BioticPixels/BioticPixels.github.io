@@ -18,6 +18,9 @@
                 ["marginTop", 0.3],
                 ["lineHeight", 0.8]
             ],
+            ["#bioticPixels",
+                ["fontSize", 1]
+            ],
             ["#bioticPixelsImage",
                 ["height", 2],
                 ["width", 2],
