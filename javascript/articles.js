@@ -23,8 +23,8 @@
                 ["marginBottom", 0.1]
             ],
             ["#bioticPixelsImage",
-                ["height", 1],
-                ["width", 1],
+                ["height", 2],
+                ["width", 2],
                 ["marginTop", 5],
                 ["paddingBottom", 0.1]
             ],
