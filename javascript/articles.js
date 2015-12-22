@@ -19,8 +19,8 @@
                 ["lineHeight", 0.8]
             ],
             ["#top",
-                ["paddingTop", 1],
-                ["paddingBottom", 0],
+                ["paddingTop", 0],
+                ["paddingBottom", 1],
                 ["marginTop", 0],
                 ["marginBottom", 0]
             ],
