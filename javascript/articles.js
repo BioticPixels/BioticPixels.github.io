@@ -35,7 +35,7 @@
                 ["height", 2],
                 ["width", 2],
                 ["marginTop", 0],
-                ["marginBottom", -0.5]
+                ["marginBottom", -0.6]
             ],
             ["h1",
                 ["fontSize", 1],
