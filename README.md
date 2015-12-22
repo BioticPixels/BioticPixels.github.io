@@ -4,9 +4,11 @@
 
 [Articles](http://bioticpixels.com/articles "bioticpixels.com/articles") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels") | [Supporting](http://bioticpixels.com/supporting "bioticpixels.com/supporting") | [About](http://bioticpixels.com/articles/about "bioticpixels.com/articles/about")
 
+## README
+
 Website of Biotic Pixels.
 
-## TODO
+### TODO
 
 - articles/index.html
 - Maybe convert /articles/ to /projects/
