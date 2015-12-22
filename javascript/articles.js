@@ -22,6 +22,12 @@
                 ["fontSize", 1],
                 ["marginBottom", 0.1]
             ],
+            ["#bioticPixelsImage",
+                ["height", 5],
+                ["width", 5],
+                ["marginTop", 5],
+                ["paddingBottom", 0.1]
+            ],
             ["h1",
                 ["fontSize", 1],
                 ["marginTop", 0.4],
