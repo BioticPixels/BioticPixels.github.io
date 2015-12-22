@@ -50,7 +50,7 @@
             ],
             ["nav",
                 ["marginBottom", 0.4],
-                ["marginTop", 0.4]
+                ["marginTop", 0.3]
             ]
         ],
         [
