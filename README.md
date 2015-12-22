@@ -1,5 +1,7 @@
 <!-- Date: 26 September 2013 10:04:00 -->
 
+![Biotic Pixels trademark.](images/Biotic Pixels 3.png)
+
 # [Biotic Pixels](http://bioticpixels.com "bioticpixels.com")
 
 [Articles](http://bioticpixels.com/articles "bioticpixels.com/articles") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels") | [Supporting](http://bioticpixels.com/supporting "bioticpixels.com/supporting") | [About](http://bioticpixels.com/articles/about "bioticpixels.com/articles/about")
