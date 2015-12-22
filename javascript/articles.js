@@ -1,7 +1,7 @@
 //----------
 // Biotic Pixels 28 September 2013 08:02:16
 //----------
-// @TODO Indicate where code in <pre> tags has been wrapped
+// TODO Indicate where code in <pre> tags has been wrapped
 
 (function () {
 
@@ -24,9 +24,9 @@
             ["#bioticPixelsImage",
                 ["height", 2],
                 ["width", 2],
-                ["marginTop", -0.1],
-                ["marginBottom", -0.6],
-                ["marginLeft", 0.3]
+                ["marginTop", -0.1], // Move everything on the page up and down.
+                ["marginBottom", -0.6], // Move the image up and down.
+                ["marginLeft", 0.3] // Move the image and text left from the left.
             ],
             ["h1",
                 ["fontSize", 1],
