@@ -24,7 +24,7 @@
             ["#bioticPixelsImage",
                 ["height", 2],
                 ["width", 2],
-                ["marginTop", -0.1], // Move everything on the page up and down.
+                ["marginTop", -0.2], // Move everything on the page up and down.
                 ["marginBottom", -0.6], // Move the image up and down.
                 ["marginLeft", 0.3] // Move the image and text left from the left.
             ],
