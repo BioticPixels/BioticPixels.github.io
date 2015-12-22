@@ -26,7 +26,7 @@
                 ["height", 2],
                 ["width", 2],
                 ["marginTop", -1],
-                ["paddingTop", 1]
+                ["paddingTop", 2]
             ],
             ["h1",
                 ["fontSize", 1],
