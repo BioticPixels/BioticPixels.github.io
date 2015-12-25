@@ -15,7 +15,7 @@ Here is the end product of the work done to convert global elevation data to the
 
 An elaboration of the conversion is presented [later in the article](purpose "Purpose and Reasoning").
 
-If there is enough interest, a step-by-step methodology of creating the images will be written later.
+If there is enough interest, a step-by-step methodology of creating the images can be written later.
 
 ### About the Images
 
