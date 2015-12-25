@@ -100,9 +100,6 @@
                 ["padding", 1],
                 ["paddingLeft", 1],
                 ["paddingRight", 1]
-            ],
-            ["img",
-                ["maxWidth", 45]
             ]
         ]
     ];
