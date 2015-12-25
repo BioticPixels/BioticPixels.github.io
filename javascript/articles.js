@@ -51,9 +51,6 @@
             ["nav",
                 ["marginBottom", 0.4],
                 ["marginTop", 0.3]
-            ],
-            ["img",
-                ["maxWidth", 8]
             ]
         ],
         [
@@ -103,6 +100,9 @@
                 ["padding", 1],
                 ["paddingLeft", 1],
                 ["paddingRight", 1]
+            ],
+            ["img",
+                ["maxWidth", 8]
             ]
         ]
     ];
