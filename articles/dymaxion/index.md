@@ -15,7 +15,7 @@ Date: 23 December 2015 01:12:21
 
 Here is the end product of the work done to convert global elevation data to the [Dymaxion map projection](https://bfi.org/about-fuller/big-ideas/dymaxion-world/dymaxion-map "Buckminster Fuller Institute bfi.org") with added shoreline data.
 
-An elaboration of the conversion is presented [later in the article](http://bioticpixels.com/articles/dymaxion#purposeandreasoning "Purpose and Reasoning").
+An elaboration of the conversion is presented [later in the article](#purposeandreasoning "Purpose and Reasoning").
 
 If there is enough interest, a step-by-step methodology of creating the images can be written later.
 
