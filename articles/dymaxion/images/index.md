@@ -2,7 +2,7 @@ Date: 24 December 2015 14:35:25
 
 # Dymaxion Images
 
-These images are from the ['Dymaxion Elevation and Shoreline Map (DESM)' article](../../ "Dymaxion Elevation and Shoreline Map (DESM)").
+These images are from the ['Dymaxion Elevation and Shoreline Map (DESM)' article](http://bioticpixels.com/articles/dymaxion "Dymaxion Elevation and Shoreline Map (DESM)").
 
 - [TIFFs](tiffs)
 - [PNGs](pngs)
