@@ -2,9 +2,9 @@
 
 ![Biotic Pixels trademark.](images/20 December 2015 20-39-08 small.png)
 
-# [Biotic Pixels](http://bioticpixels.com "bioticpixels.com")
+# [Biotic Pixels](bioticpixels.com "bioticpixels.com")
 
-[Articles](http://bioticpixels.com/articles "bioticpixels.com/articles") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](http://github.com/BioticPixels "github.com/BioticPixels") | [Supporting](http://bioticpixels.com/supporting "bioticpixels.com/supporting") | [About](http://bioticpixels.com/articles/about "bioticpixels.com/articles/about")
+[Articles](bioticpixels.com/articles "bioticpixels.com/articles") | [Email](mailto:bioticpixel@gmail.com "bioticpixel@gmail.com") | [Github](github.com/BioticPixels "github.com/BioticPixels") | [Supporting](bioticpixels.com/supporting "bioticpixels.com/supporting") | [About](bioticpixels.com/articles/about "bioticpixels.com/articles/about")
 
 ## README
 
