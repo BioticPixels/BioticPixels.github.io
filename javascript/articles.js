@@ -51,6 +51,9 @@
             ["nav",
                 ["marginBottom", 0.4],
                 ["marginTop", 0.3]
+            ],
+            ["img",
+                ["maxWidth", 800]
             ]
         ],
         [
