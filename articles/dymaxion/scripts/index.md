@@ -2,7 +2,7 @@ Date: 25 December 2015 04:12:22
 
 # Scripts
 
-A script use to convert equirectangular map to Dymaxion maps, from the ['Dymaxion Elevation and Shoreline Map (DESM)' article](../../ "Dymaxion Elevation and Shoreline Map (DESM)").
+A script use to convert equirectangular map to Dymaxion maps, from the ['Dymaxion Elevation and Shoreline Map (DESM)' article](http://bioticpixels.com/articles/dymaxion "Dymaxion Elevation and Shoreline Map (DESM)").
 
 [**dymaxify.pl**](dymaxify.pl "Original Dymaxify Script")  
 *Size: 1KB*  
