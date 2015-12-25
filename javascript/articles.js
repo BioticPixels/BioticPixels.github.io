@@ -29,7 +29,7 @@
                 ["marginLeft", 0.3] // Move the image and text left from the left.
             ],
             ["h1",
-                ["fontSize", 0.5],
+                ["fontSize", 0.75],
                 ["marginTop", 0.4],
                 ["marginBottom", 0.4]
             ],
