@@ -9,6 +9,8 @@ Date: 23 December 2015 01:12:21
 
 *This article is hosted on [GitHub](https://github.com/BioticPixels/BioticPixels/tree/gh-pages/articles "Articles github.com"). If there are any problems, open an [issue](https://github.com/BioticPixels/BioticPixels/issues "bioticpixels.com Issues github.com").*
 
+*Want to comment on this article? [It was posted on Reddit.](https://redd.it/3y64ae "reddit.com").*
+
 ## Introduction
 
 Here is the end product of the work done to convert global elevation data to the [Dymaxion map projection](https://bfi.org/about-fuller/big-ideas/dymaxion-world/dymaxion-map "Buckminster Fuller Institute bfi.org") with added shoreline data.
