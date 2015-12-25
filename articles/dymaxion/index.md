@@ -22,7 +22,7 @@ If there is enough interest, a step-by-step methodology of creating the images w
 The images in this article are [PNGs](https://en.wikipedia.org/wiki/Portable_Network_Graphics "Portable Network Graphics wikipedia.org"), but also exist as [TIFFs](https://en.wikipedia.org/wiki/Tagged_Image_File_Format "Tagged Image File Format wikipedia.org"). The PNGs are at least [5K resolution](https://en.wikipedia.org/wiki/5K_resolution "5K resolution wikipedia.org") (5120x2880px), but the TIFFs are 43200x21600px. Here is a scale to show how big the originals really are:  
 ![Resolution Comparison](images/png/other/size_comparison.png "Resolution Comparison")
 
-Here is a link to [all the images in this article](images "Article Images Including TIFFs"), including the original, full resolution TIFFs.
+Here is a link to [all the images in this article](images "Article Images Including TIFFs"), including the original, full resolution TIFFs, and 5K resolution PNGs.
 
 The images were created using [GEBCO][0] elevation data, [VMap0][1] shoreline data, [QGIS](http://www.qgis.org/en/site/ "QGIS qgis.org"), [Photoshop](http://www.photoshop.com/products/photoshop "Photoshop photoshop.com"), and a modified [Dymaxify Perl script, dymaxify3.pl](scripts "Dymaxify Perl Scripts").
 
@@ -39,26 +39,26 @@ As much as the script was easy to start running, the interpolation method is ver
 ![Original Elevation PNG](images/png/original_elevation.png "Original Elevation PNG")
 *The original elevation data. [Get the source data here][0].*
 
-![Dymaxified Elevation PNG](images/png/elevation.png "Dymaxified Elevation PNG")
+![Dymaxified Elevation PNG](images/png/elevation_small.png "Dymaxified Elevation PNG")
 *Dymaxified elevation data with no background. Get the [full resolution TIFF here](https://drive.google.com/file/d/0B4ugcbzXgPzQWkRORjJWVEtkWTA/view?usp=sharing "Elevation TIFF") (93.5MB).*
 
-![Original Elevation with Alpha PNG](images/png/original_elevation_alpha.png "Original Elevation with Alpha PNG")
+![Original Elevation with Alpha PNG](images/png/original_elevation_alpha_small.png "Original Elevation with Alpha PNG")
 *Elevation data with the oceans converted to alpha.*
 
-![Dymaxified Elevation with Alpha PNG](images/png/elevation_alpha.png "Dymaxified Elevation with Alpha PNG")
+![Dymaxified Elevation with Alpha PNG](images/png/elevation_alpha_small.png "Dymaxified Elevation with Alpha PNG")
 *Dymaxified elevation data with the oceans and background converted to alpha. Get the [full resolution TIFF here](https://drive.google.com/file/d/0B4ugcbzXgPzQVEduYkI3S1J1bTQ/view?usp=sharing "Elevation with Alpha TIFF") (149.7MB).*
 
-![Dymaxified Elevation with Oceans and Background PNG](images/png/all.png "Dymaxified Elevation with Oceans and Background PNG")
+![Dymaxified Elevation with Oceans and Background PNG](images/png/all_small.png "Dymaxified Elevation with Oceans and Background PNG")
 *Dymaxified elevation data with the oceans (green) and background (red). Get the [full resolution TIFF here](https://drive.google.com/file/d/0B4ugcbzXgPzQNFdkazRuSmQ3ZUE/view?usp=sharing "Elevation with Oceans and Background TIFF") (114.2MB).*
 
 #### Bonus
 
 This is what happens when the elevation data is put through the Dymaxify script twice at 5K resolution.
 
-![Double Dymaxified Elevation with Alpha PNG](images/png/landmass_alpha_dymaxified.png "Double Dymaxified Elevation with Alpha PNG")
+![Double Dymaxified Elevation with Alpha PNG](images/png/landmass_alpha_dymaxified_small.png "Double Dymaxified Elevation with Alpha PNG")
 *Dymaxified elevation data run through the Dymaxify script again, converting everything but the landmasses to alpha.*
 
-![Double Dymaxified Elevation with Oceans and Background PNG](images/png/all_dymaxified.png "Double Dymaxified Elevation with Oceans and Background PNG")
+![Double Dymaxified Elevation with Oceans and Background PNG](images/png/all_dymaxified_small.png "Double Dymaxified Elevation with Oceans and Background PNG")
 *Dymaxified elevation data run through the Dymaxify script again, this time retaining the oceans (green) and background (red and blue) data.*
 
 ## Purpose and Reasoning
