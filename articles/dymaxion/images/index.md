@@ -7,11 +7,11 @@ These images are from the ['Dymaxion Elevation and Shoreline Map (DESM)' article
 - [TIFFs]()
 - [PNGs]()
 
+The preview images are 1280x720px minimum.
+
 ## TIFFs
 
 Here are the full resolution, [lossless](https://en.wikipedia.org/wiki/Lossless_compression "Lossless wikipedia.org") [TIFF](https://en.wikipedia.org/wiki/Tagged_Image_File_Format "Tagged Image File Format wikipedia.org") images. They are all large, precisely 43200x21600px, and are all compressed with LZW. These files are as big as 150MB compressed, and upward of 2GB uncompressed.
-
-The preview images are 1280x720px minimum.
 
 ### Links
 
