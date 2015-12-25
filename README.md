@@ -8,7 +8,7 @@
 
 ## README
 
-Website of Biotic Pixels.
+[Website of Biotic Pixels](http://bioticpixels.com "bioticpixels.com").
 
 ### TODO
 
