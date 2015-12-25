@@ -19,7 +19,7 @@ If there is enough interest, a step-by-step methodology of creating the images w
 
 ### About the Images
 
-The images in this article are [PNGs](https://en.wikipedia.org/wiki/Portable_Network_Graphics "Portable Network Graphics wikipedia.org"), but also exist as [TIFFs](https://en.wikipedia.org/wiki/Tagged_Image_File_Format "Tagged Image File Format wikipedia.org"). The PNGs are at least [5K resolution](https://en.wikipedia.org/wiki/5K_resolution "5K resolution wikipedia.org") (5120x2880px), but the TIFFs are 43200x21600px. Here is a scale to show how big the originals really are:
+The images in this article are [PNGs](https://en.wikipedia.org/wiki/Portable_Network_Graphics "Portable Network Graphics wikipedia.org"), but also exist as [TIFFs](https://en.wikipedia.org/wiki/Tagged_Image_File_Format "Tagged Image File Format wikipedia.org"). The PNGs are at least [5K resolution](https://en.wikipedia.org/wiki/5K_resolution "5K resolution wikipedia.org") (5120x2880px), but the TIFFs are 43200x21600px. Here is a scale to show how big the originals really are:  
 ![Resolution Comparison](images/png/other/size_comparison.png "Resolution Comparison")
 
 Here is a link to [all the images in this article](images "Article Images Including TIFFs"), including the original, full resolution TIFFs.
