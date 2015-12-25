@@ -235,3 +235,7 @@ nav ul {
   margin-bottom: -0.6rem;
   margin-left: 0.3rem;
   display: inline; }
+
+img {
+  display: block;
+}
