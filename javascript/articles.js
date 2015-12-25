@@ -34,19 +34,19 @@
                 ["marginBottom", 0.4]
             ],
             ["h2",
-                ["fontSize", (.05 / 6 * 5)]
+                ["fontSize", (0.75 / 6 * 5)]
             ],
             ["h3",
-                ["fontSize", (0.5 / 6 * 4)]
+                ["fontSize", (0.75 / 6 * 4)]
             ],
             ["h4",
-                ["fontSize", (0.5 / 6 * 3)]
+                ["fontSize", (0.75 / 6 * 3)]
             ],
             ["h5",
-                ["fontSize", (0.5 / 6 * 2)]
+                ["fontSize", (0.75 / 6 * 2)]
             ],
             ["h6",
-                ["fontSize", (0.5 / 6 * 1)]
+                ["fontSize", (0.75 / 6 * 1)]
             ],
             ["nav",
                 ["marginBottom", 0.4],
