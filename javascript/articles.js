@@ -53,7 +53,7 @@
                 ["marginTop", 0.3]
             ],
             ["img",
-                ["maxWidth", 800]
+                ["maxWidth", 8]
             ]
         ],
         [
