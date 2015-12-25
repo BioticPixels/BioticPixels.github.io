@@ -102,7 +102,7 @@
                 ["paddingRight", 1]
             ],
             ["img",
-                ["maxWidth", 50]
+                ["maxWidth", 45]
             ]
         ]
     ];
