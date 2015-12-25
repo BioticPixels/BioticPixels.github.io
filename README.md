@@ -1,6 +1,6 @@
 <!-- Date: 26 September 2013 10:04:00 -->
 
-![Biotic Pixels trademark.](images/20 December 2015 20-39-08 small.png)
+![Biotic Pixels trademark.](http://bioticpixels.com/images/20 December 2015 20-39-08 small.png)
 
 # [Biotic Pixels](http://bioticpixels.com "bioticpixels.com")
 
@@ -14,7 +14,11 @@ Website of Biotic Pixels.
 
 - Maybe convert /articles/ to /projects/.
 - Update favicon.ico.
-- Should main body text of the supporting, thankyou, 404, etc. pages be centre aligned or left aligned like the article pages? Although scrolling is possible, it would only make a difference if the text was long, at which point the page would become an article. Pages such as these should only have a sentence or two on them at most.
+<<<<<<< HEAD
+- Should main body text of the '/supporting', '/thankyou', '/404', etc. pages be centre aligned or left aligned like the article pages? Although scrolling is possible, it would only make a difference if the text was long, at which point the page would become an article. Pages such as these should only have a sentence or two on them at most.
+=======
+- Should the main body text of the supporting, thankyou, 404, etc. pages be centre aligned or left aligned like the article pages? Although scrolling is possible, it would only make a difference if the text was long, at which point the page would become an article. Pages such as these should only have a sentence or two on them at most.
+>>>>>>> FETCH_HEAD
 - Add DynamicScaling to width/max-width of columns/divs (including index, supporting, and articles).
 - Add table of contents button to articles. May be problematic for smart phones as there would need to be some way of scrolling through the menu.
 - Continue to update articles.css.

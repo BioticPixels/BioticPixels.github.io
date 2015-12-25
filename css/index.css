@@ -73,8 +73,8 @@ html {
 }
 
 body {
-    color: #373737;
-    background: #FFFFFF;
+    color: rgb(51, 51, 51);
+    background: rgb(255, 255, 255);
     font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, sans-serif;
     line-height: 0;
     -webkit-font-smoothing: antialiased;
@@ -152,7 +152,7 @@ ul, li {
 
 a {
     text-decoration: none;
-    color: #007edf;
+    color: rgb(0, 126, 223);
 }
 
 h1 a {
