@@ -4,8 +4,8 @@ Date: 24 December 2015 14:35:25
 
 These images are from the ['Dymaxion Elevation and Shoreline Map (DESM)' article](../../ "Dymaxion Elevation and Shoreline Map (DESM)").
 
-- [TIFFs]()
-- [PNGs]()
+- [TIFFs](tiffs)
+- [PNGs](pngs)
 
 The preview images are 1280x720px minimum.
 
