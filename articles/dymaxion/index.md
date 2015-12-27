@@ -36,7 +36,7 @@ This script uses a Perl module called Geo::Dymaxion, again by Schuyler D. Erle, 
 
 As much as the script was easy to start running, the interpolation method is very crude, and could be improved.
 
-### Images
+## Images
 
 ![Original Elevation PNG](images/png/original_elevation.png "Original Elevation PNG")
 *The original elevation data. [Get the source data here][0].*
@@ -53,7 +53,7 @@ As much as the script was easy to start running, the interpolation method is ver
 ![Dymaxified Elevation with Oceans and Background PNG](images/png/all_small.png "Dymaxified Elevation with Oceans and Background PNG")
 *Dymaxified elevation data with the oceans (green) and background (red). Get the [full resolution TIFF here](https://drive.google.com/file/d/0B4ugcbzXgPzQNFdkazRuSmQ3ZUE/view?usp=sharing "Elevation with Oceans and Background TIFF") (114.2MB).*
 
-#### Bonus
+### Bonus
 
 This is what happens when the elevation data is put through the Dymaxify script twice at 5K resolution.
 
