@@ -26,7 +26,7 @@ The images in this article are [PNGs](https://en.wikipedia.org/wiki/Portable_Net
 
 Here is a link to [all the images in this article](images "Article Images Including TIFFs"), including the original, full resolution TIFFs, and 5K resolution PNGs.
 
-The images were created using [GEBCO][0] elevation data with [VMap0][1] shoreline data overlayed using [QGIS](http://www.qgis.org/en/site/ "QGIS qgis.org") and [Photoshop](http://www.photoshop.com/products/photoshop "Photoshop photoshop.com"), and then Dymaxified using a modified [Perl script, dymaxify3.pl](https://github.com/BioticPixels/Dymaxify "Dymaxify Perl Scripts github.com").
+The images were created using [GEBCO][0] elevation data with [VMap0][1] shoreline data overlayed using [QGIS](http://www.qgis.org/en/site/ "QGIS qgis.org") and [Photoshop](http://www.photoshop.com/products/photoshop "Photoshop photoshop.com"), and then Dymaxified using a modified Perl script, [dymaxify3.pl](https://github.com/BioticPixels/Dymaxify "Dymaxify Perl Scripts github.com").
 
 #### About the Script
 
