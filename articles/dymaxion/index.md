@@ -24,7 +24,7 @@ If there is enough interest, a step-by-step methodology of creating the images c
 The images in this article are [PNGs](https://en.wikipedia.org/wiki/Portable_Network_Graphics "Portable Network Graphics wikipedia.org"), but also exist as [TIFFs](https://en.wikipedia.org/wiki/Tagged_Image_File_Format "Tagged Image File Format wikipedia.org"). The PNGs are at least [5K resolution](https://en.wikipedia.org/wiki/5K_resolution "5K resolution wikipedia.org") (5120x2880px), but the TIFFs are 43200x21600px. Here is a scale to show how big the originals really are:  
 ![Resolution Comparison](images/png/other/size_comparison_small.png "Resolution Comparison")
 
-If the GEBCO image was printed at [300dpi](https://en.wikipedia.org/wiki/Dots_per_inch "Dots Per Inch wikipedia.org") it would be about the size of an average human being at 1.83metres tall.
+If the GEBCO image was printed at [300dpi](https://en.wikipedia.org/wiki/Dots_per_inch "Dots Per Inch wikipedia.org") it would be about the [size of an average human being](https://en.wikipedia.org/wiki/Human_height#Average_height_around_the_world "Human Height wikipedia.org") at 1.83metres tall.
 
 Here is a link to [all the images in this article](images "Article Images Including TIFFs"), including the original, full resolution TIFFs, and 5K resolution PNGs.
 
