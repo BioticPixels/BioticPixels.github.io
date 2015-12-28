@@ -458,32 +458,32 @@ This is the second paragraph in the list item. You're only required to indent th
             
             <pre><code>This is a normal paragraph:
 
-    This is a code block.</code></pre>
+This is a code block.</code></pre>
             
             <p>Markdown will generate:</p>
             
             <pre><code>&lt;p&gt;This is a normal paragraph:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt;This is a code block.
-    &lt;/code&gt;&lt;/pre&gt;</code></pre>
+&lt;pre&gt;&lt;code&gt;This is a code block.
+&lt;/code&gt;&lt;/pre&gt;</code></pre>
             
             <p>One level of indentation &#8211; 4 spaces or 1 tab &#8211; is removed from each
                 line of the code block. For example, this:</p>
             
             <pre><code>Here is an example of AppleScript:
 
-    tell application &quot;Foo&quot;
-beep
-    end tell</code></pre>
+tell application &quot;Foo&quot;
+    beep
+end tell</code></pre>
             
             <p>will turn into:</p>
             
             <pre><code>&lt;p&gt;Here is an example of AppleScript:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
-    beep
-    end tell
-    &lt;/code&gt;&lt;/pre&gt;</code></pre>
+&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
+beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;</code></pre>
             
             <p>A code block continues until it reaches a line that is not indented
                 (or the end of the article).</p>
@@ -495,15 +495,15 @@ beep
                 ampersands and angle brackets. For example, this:</p>
             
             <pre><code>    &lt;div class=&quot;footer&quot;&gt;
-    &amp;copy; 2004 Foo Corporation
-    &lt;/div&gt;</code></pre>
+&amp;copy; 2004 Foo Corporation
+&lt;/div&gt;</code></pre>
             
             <p>will turn into:</p>
             
             <pre><code>&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;
-    &amp;amp;copy; 2004 Foo Corporation
-    &amp;lt;/div&amp;gt;
-    &lt;/code&gt;&lt;/pre&gt;</code></pre>
+&amp;amp;copy; 2004 Foo Corporation
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</code></pre>
             
             <p>Regular Markdown syntax is not processed within code blocks. E.g.,
                 asterisks are just literal asterisks within a code block. This means
@@ -522,10 +522,9 @@ beep
 
 *****
 
-                - - -
+- - -
             
-                ---------------------------------------
-            </code></pre>
+---------------------------------------</code></pre>
             
             <hr/>
             
@@ -544,40 +543,32 @@ beep
             
             <pre><code>This is [an example](http://example.com/ &quot;Title&quot;) inline link.
             
-                [This link](http://example.net/) has no title attribute.
-            </code></pre>
+[This link](http://example.net/) has no title attribute.</code></pre>
             
             <p>Will produce:</p>
             
-            <pre><code>&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&gt;
-                an example&lt;/a&gt; inline link.&lt;/p&gt;
+            <pre><code>&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&gt; an example&lt;/a&gt; inline link.&lt;/p&gt;
             
-                &lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no
-                title attribute.&lt;/p&gt;
-            </code></pre>
+                &lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no title attribute.&lt;/p&gt;</code></pre>
             
             <p>If you&#8217;re referring to a local resource on the same server, you can
                 use relative paths:</p>
             
-            <pre><code>See my [About](/about/) page for details.
-            </code></pre>
+            <pre><code>See my [About](/about/) page for details.</code></pre>
             
             <p>Reference-style links use a second set of square brackets, inside
                 which you place a label of your choosing to identify the link:</p>
             
-            <pre><code>This is [an example][id] reference-style link.
-            </code></pre>
+            <pre><code>This is [an example][id] reference-style link.</code></pre>
             
             <p>You can optionally use a space to separate the sets of brackets:</p>
             
-            <pre><code>This is [an example] [id] reference-style link.
-            </code></pre>
+            <pre><code>This is [an example] [id] reference-style link.</code></pre>
             
             <p>Then, anywhere in the document, you define your link label like this,
                 on a line by itself:</p>
             
-            <pre><code>[id]: http://example.com/ &quot;Optional Title Here&quot;
-            </code></pre>
+            <pre><code>[id]: http://example.com/ &quot;Optional Title Here&quot;</code></pre>
             
             <p>That is:</p>
             
@@ -596,24 +587,20 @@ beep
             <p>The following three link definitions are equivalent:</p>
             
             <pre><code>[foo]: http://example.com/ &quot;Optional Title Here&quot;
-                [foo]: http://example.com/ 'Optional Title Here'
-                [foo]: http://example.com/ (Optional Title Here)
-            </code></pre>
+[foo]: http://example.com/ 'Optional Title Here'
+[foo]: http://example.com/ (Optional Title Here)</code></pre>
             
             <p><strong>Note:</strong> There is a known bug in Markdown.pl 1.0.1 which prevents
                 single quotes from being used to delimit link titles.</p>
             
             <p>The link URL may, optionally, be surrounded by angle brackets:</p>
             
-            <pre><code>[id]: &lt;http://example.com/&gt; &quot;Optional Title Here&quot;
-            </code></pre>
+            <pre><code>[id]: &lt;http://example.com/&gt; &quot;Optional Title Here&quot;</code></pre>
             
             <p>You can put the title attribute on the next line and use extra spaces
                 or tabs for padding, which tends to look better with longer URLs:</p>
             
-            <pre><code>[id]: http://example.com/longish/path/to/resource/here
-                &quot;Optional Title Here&quot;
-            </code></pre>
+            <pre><code>[id]: http://example.com/longish/path/to/resource/here &quot;Optional Title Here&quot;</code></pre>
             
             <p>Link definitions are only used for creating links during Markdown
                 processing, and are stripped from your document in the HTML output.</p>
@@ -623,8 +610,7 @@ beep
                 links:</p>
             
             <pre><code>[link text][a]
-                [link text][A]
-            </code></pre>
+[link text][A]</code></pre>
             
             <p>are equivalent.</p>
             
@@ -633,24 +619,20 @@ beep
                 Just use an empty set of square brackets &#8211; e.g., to link the word
                 &#8220;Google&#8221; to the google.com web site, you could simply write:</p>
             
-            <pre><code>[Google][]
-            </code></pre>
+            <pre><code>[Google][]</code></pre>
             
             <p>And then define the link:</p>
             
-            <pre><code>[Google]: http://google.com/
-            </code></pre>
+            <pre><code>[Google]: http://google.com/</code></pre>
             
             <p>Because link names may contain spaces, this shortcut even works for
                 multiple words in the link text:</p>
             
-            <pre><code>Visit [Daring Fireball][] for more information.
-            </code></pre>
+            <pre><code>Visit [Daring Fireball][] for more information.</code></pre>
             
             <p>And then define the link:</p>
             
-            <pre><code>[Daring Fireball]: http://daringfireball.net/
-            </code></pre>
+            <pre><code>[Daring Fireball]: http://daringfireball.net/</code></pre>
             
             <p>Link definitions can be placed anywhere in your Markdown document. I
                 tend to put them immediately after each paragraph in which they&#8217;re
@@ -660,38 +642,29 @@ beep
             <p>Here&#8217;s an example of reference links in action:</p>
             
             <pre><code>I get 10 times more traffic from [Google] [1] than from
-                [Yahoo] [2] or [MSN] [3].
+[Yahoo] [2] or [MSN] [3].
             
-                [1]: http://google.com/ &quot;Google&quot;
-                [2]: http://search.yahoo.com/ &quot;Yahoo Search&quot;
-                [3]: http://search.msn.com/ &quot;MSN Search&quot;
-            </code></pre>
+[1]: http://google.com/ &quot;Google&quot;
+[2]: http://search.yahoo.com/ &quot;Yahoo Search&quot;
+[3]: http://search.msn.com/ &quot;MSN Search&quot;</code></pre>
             
             <p>Using the implicit link name shortcut, you could instead write:</p>
             
             <pre><code>I get 10 times more traffic from [Google][] than from
-                [Yahoo][] or [MSN][].
+[Yahoo][] or [MSN][].
             
-                [google]: http://google.com/ &quot;Google&quot;
-                [yahoo]: http://search.yahoo.com/ &quot;Yahoo Search&quot;
-                [msn]: http://search.msn.com/ &quot;MSN Search&quot;
-            </code></pre>
+[google]: http://google.com/ &quot;Google&quot;
+[yahoo]: http://search.yahoo.com/ &quot;Yahoo Search&quot;
+[msn]: http://search.msn.com/ &quot;MSN Search&quot;</code></pre>
             
             <p>Both of the above examples will produce the following HTML output:</p>
             
-            <pre><code>&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot;
-                title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from
-                &lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt;
-                or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;
-            </code></pre>
+            <pre><code>&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot; title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from &lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;</code></pre>
             
             <p>For comparison, here is the same paragraph written using
                 Markdown&#8217;s inline link style:</p>
             
-            <pre><code>I get 10 times more traffic from [Google](http://google.com/ &quot;Google&quot;)
-                than from [Yahoo](http://search.yahoo.com/ &quot;Yahoo Search&quot;) or
-                [MSN](http://search.msn.com/ &quot;MSN Search&quot;).
-            </code></pre>
+            <pre><code>I get 10 times more traffic from [Google](http://google.com/ &quot;Google&quot;) than from [Yahoo](http://search.yahoo.com/ &quot;Yahoo Search&quot;) or [MSN](http://search.msn.com/ &quot;MSN Search&quot;).</code></pre>
             
             <p>The point of reference-style links is not that they&#8217;re easier to
                 write. The point is that with reference-style links, your document
@@ -717,31 +690,28 @@ beep
             
             <pre><code>*single asterisks*
             
-                _single underscores_
+_single underscores_
             
-                **double asterisks**
+**double asterisks**
             
-                __double underscores__
-            </code></pre>
+__double underscores__</code></pre>
             
             <p>will produce:</p>
             
             <pre><code>&lt;em&gt;single asterisks&lt;/em&gt;
             
-                &lt;em&gt;single underscores&lt;/em&gt;
+&lt;em&gt;single underscores&lt;/em&gt;
             
-                &lt;strong&gt;double asterisks&lt;/strong&gt;
+&lt;strong&gt;double asterisks&lt;/strong&gt;
             
-                &lt;strong&gt;double underscores&lt;/strong&gt;
-            </code></pre>
+&lt;strong&gt;double underscores&lt;/strong&gt;</code></pre>
             
             <p>You can use whichever style you prefer; the lone restriction is that
                 the same character must be used to open and close an emphasis span.</p>
             
             <p>Emphasis can be used in the middle of a word:</p>
             
-            <pre><code>un*frigging*believable
-            </code></pre>
+            <pre><code>un*frigging*believable</code></pre>
             
             <p>But if you surround an <code>*</code> or <code>_</code> with spaces, it&#8217;ll be treated as a
                 literal asterisk or underscore.</p>
@@ -750,8 +720,7 @@ beep
                 would otherwise be used as an emphasis delimiter, you can backslash
                 escape it:</p>
             
-            <pre><code>\*this text is surrounded by literal asterisks\*
-            </code></pre>
+            <pre><code>\*this text is surrounded by literal asterisks\*</code></pre>
             
             <h3 id="code">Code</h3>
             
@@ -759,24 +728,20 @@ beep
                 Unlike a pre-formatted code block, a code span indicates code within a
                 normal paragraph. For example:</p>
             
-            <pre><code>Use the `printf()` function.
-            </code></pre>
+            <pre><code>Use the `printf()` function.</code></pre>
             
             <p>will produce:</p>
             
-            <pre><code>&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function.&lt;/p&gt;
-            </code></pre>
+            <pre><code>&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function.&lt;/p&gt;</code></pre>
             
             <p>To include a literal backtick character within a code span, you can use
                 multiple backticks as the opening and closing delimiters:</p>
             
-            <pre><code>``There is a literal backtick (`) here.``
-            </code></pre>
+            <pre><code>``There is a literal backtick (`) here.``</code></pre>
             
             <p>which will produce this:</p>
             
-            <pre><code>&lt;p&gt;&lt;code&gt;There is a literal backtick (`) here.&lt;/code&gt;&lt;/p&gt;
-            </code></pre>
+            <pre><code>&lt;p&gt;&lt;code&gt;There is a literal backtick (`) here.&lt;/code&gt;&lt;/p&gt;</code></pre>
             
             <p>The backtick delimiters surrounding a code span may include spaces &#8211;
                 one after the opening, one before the closing. This allows you to place
@@ -784,38 +749,31 @@ beep
             
             <pre><code>A single backtick in a code span: `` ` ``
             
-                A backtick-delimited string in a code span: `` `foo` ``
-            </code></pre>
+A backtick-delimited string in a code span: `` `foo` ``</code></pre>
             
             <p>will produce:</p>
             
             <pre><code>&lt;p&gt;A single backtick in a code span: &lt;code&gt;`&lt;/code&gt;&lt;/p&gt;
             
-                &lt;p&gt;A backtick-delimited string in a code span: &lt;code&gt;`foo`&lt;/code&gt;&lt;/p&gt;
-            </code></pre>
+&lt;p&gt;A backtick-delimited string in a code span: &lt;code&gt;`foo`&lt;/code&gt;&lt;/p&gt;</code></pre>
             
             <p>With a code span, ampersands and angle brackets are encoded as HTML
                 entities automatically, which makes it easy to include example HTML
                 tags. Markdown will turn this:</p>
             
-            <pre><code>Please don't use any `&lt;blink&gt;` tags.
-            </code></pre>
+            <pre><code>Please don't use any `&lt;blink&gt;` tags.</code></pre>
             
             <p>into:</p>
             
-            <pre><code>&lt;p&gt;Please don't use any &lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
-            </code></pre>
+            <pre><code>&lt;p&gt;Please don't use any &lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;</code></pre>
             
             <p>You can write this:</p>
             
-            <pre><code>`&amp;#8212;` is the decimal-encoded equivalent of `&amp;mdash;`.
-            </code></pre>
+            <pre><code>`&amp;#8212;` is the decimal-encoded equivalent of `&amp;mdash;`.</code></pre>
             
             <p>to produce:</p>
             
-            <pre><code>&lt;p&gt;&lt;code&gt;&amp;amp;#8212;&lt;/code&gt; is the decimal-encoded
-                equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;
-            </code></pre>
+            <pre><code>&lt;p&gt;&lt;code&gt;&amp;amp;#8212;&lt;/code&gt; is the decimal-encoded equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;</code></pre>
             
             <h3 id="img">Images</h3>
             
@@ -828,9 +786,8 @@ beep
             <p>Inline image syntax looks like this:</p>
             
             <pre><code>![Alt text](/path/to/img.jpg)
-            
-                ![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
-            </code></pre>
+    
+    ![Alt text](/path/to/img.jpg &quot;Optional title&quot;)</code></pre>
             
             <p>That is:</p>
             
@@ -847,14 +804,12 @@ beep
             
             <p>Reference-style image syntax looks like this:</p>
             
-            <pre><code>![Alt text][id]
-            </code></pre>
+            <pre><code>![Alt text][id]</code></pre>
             
             <p>Where &#8220;id&#8221; is the name of a defined image reference. Image references
                 are defined using syntax identical to link references:</p>
             
-            <pre><code>[id]: url/to/image &quot;Optional title attribute&quot;
-            </code></pre>
+            <pre><code>[id]: url/to/image &quot;Optional title attribute&quot;</code></pre>
             
             <p>As of this writing, Markdown has no syntax for specifying the
                 dimensions of an image; if this is important to you, you can simply
@@ -870,29 +825,25 @@ beep
                 surround the URL or email address with angle brackets. What this means is that if you want to show the actual text
                 of a URL or email address, and also have it be a clickable link, you can do this:</p>
             
-            <pre><code>&lt;http://example.com/&gt;
-            </code></pre>
+            <pre><code>&lt;http://example.com/&gt;</code></pre>
             
             <p>Markdown will turn this into:</p>
             
-            <pre><code>&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;
-            </code></pre>
+            <pre><code>&lt;a href=&quot;http://example.com/&quot;&gt;http://example.com/&lt;/a&gt;</code></pre>
             
             <p>Automatic links for email addresses work similarly, except that
                 Markdown will also perform a bit of randomized decimal and hex
                 entity-encoding to help obscure your address from address-harvesting
                 spambots. For example, Markdown will turn this:</p>
             
-            <pre><code>&lt;address@example.com&gt;
-            </code></pre>
+            <pre><code>&lt;address@example.com&gt;</code></pre>
             
             <p>into something like this:</p>
             
             <pre><code>&lt;a href=&quot;&amp;#x6D;&amp;#x61;i&amp;#x6C;&amp;#x74;&amp;#x6F;:&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;
-                &amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;
-                &amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;
-                &amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;
-            </code></pre>
+    &amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;
+    &amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;
+    &amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;</code></pre>
             
             <p>which will render in a browser as a clickable link to &#8220;address@example.com&#8221;.</p>
             
@@ -909,24 +860,22 @@ beep
                 with literal asterisks (instead of an HTML <code>&lt;em&gt;</code> tag), you can use
                 backslashes before the asterisks, like this:</p>
             
-            <pre><code>\*literal asterisks\*
-            </code></pre>
+            <pre><code>\*literal asterisks\*</code></pre>
             
             <p>Markdown provides backslash escapes for the following characters:</p>
             
             <pre><code>\ backslash
-                ` backtick
-                * asterisk
-                _ underscore
-                {} curly braces
-                [] square brackets
-                () parentheses
-                # hash mark
-                + plus sign
-                - minus sign (hyphen)
-                . dot
-                ! exclamation mark
-            </code></pre>
+` backtick
+* asterisk
+_ underscore
+{} curly braces
+[] square brackets
+() parentheses
+# hash mark
++ plus sign
+- minus sign (hyphen)
+. dot
+! exclamation mark</code></pre>
             
     </body>
 </html>
