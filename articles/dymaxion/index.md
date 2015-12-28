@@ -1,4 +1,4 @@
-Date: 23 December 2015 01:12:21
+<!-- Date: 23 December 2015 01:12:21 -->
 
 *If you enjoy this article, please consider [donating](bioticpixels.com/supporting "Supporting Biotic Pixels").*
 
