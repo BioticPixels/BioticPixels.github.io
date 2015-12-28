@@ -1,4 +1,4 @@
-Date: 24 December 2015 14:35:25
+<!-- Date: 24 December 2015 14:35:25 -->
 
 # Dymaxion Images
 
