@@ -1,4 +1,4 @@
-Date: 20 December 2015 21:45:48
+<!-- Date: 20 December 2015 21:45:48 -->
 
 *This page has been taken from [Daring Fireball](https://daringfireball.net/projects/markdown/syntax "daringfireball.net") in order test the html/css of bioticpixels.com.*
 
