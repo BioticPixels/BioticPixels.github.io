@@ -177,7 +177,7 @@ pre {
   padding-top: none;
   margin-top: 1rem;
   tab-size: 4;
-  word-wrap: normal; }
+  white-space: pre-wrap; }
 
 code {
   padding: 0.1rem;}
