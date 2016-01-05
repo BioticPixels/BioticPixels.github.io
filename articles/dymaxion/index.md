@@ -32,7 +32,7 @@ The images were created using [GEBCO][0] elevation data with [VMap0][1] shorelin
 
 #### About the Script
 
-`dymaxify2.pl`, the Dymaxify script, is a modified version of a script by Schuyler D. Erle, and was originally downloaded from http://iconocla.st/hacks/dymax/dymaxify.pl, however that site is no longer available.
+dymaxify2.pl, the Dymaxify script, is a modified version of a script by Schuyler D. Erle, and was originally downloaded from http://iconocla.st/hacks/dymax/dymaxify.pl, however that site is no longer available.
 
 This script uses a Perl module called Geo::Dymaxion, again by Schuyler D. Erle, and can be found at [The Comprehensive Perl Archive Network  (CPAN)](https://metacpan.org/pod/Geo::Dymaxion "metacpan.org"). It plots latitude/longitude on a Fuller Dymaxion map, and the script gave an easy way to do this.
 
