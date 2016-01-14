@@ -157,6 +157,9 @@ a {
   text-decoration: none;
   color: rgb(0, 126, 223); }
 
+a:hover {
+  text-decoration: underline; }
+
 em {
   font-style: italic; }
 
