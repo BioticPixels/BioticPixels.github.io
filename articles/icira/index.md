@@ -116,7 +116,7 @@ This includes:
 
 #### 5.2.1. Proof of Upload
 
-Regulated sites must provide a proof of upload in order as sufficient proof for intellectual property claims.
+Regulated sites must provide a proof of upload as sufficient proof for intellectual property claims.
 
 #### 5.2.2. Proof of Revenue
 
