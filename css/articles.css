@@ -100,7 +100,7 @@ h5 {
 
 h6 {
   font-size: 1em; }
-
+/* Disabling automatic numbering until table of contents can be automatic.
 /* Automatic section numbering - level 1 */
 h1 {
   counter-reset: section1;
@@ -141,7 +141,7 @@ h5 {
 h6:before {
   content: counter(section1) "." counter(section2) "." counter(section3) "." counter(section4) "." counter(section5) " ";
   counter-increment: section5; }
-
+*/
 hr {
   margin-top: 1em;
   border-style: solid;
