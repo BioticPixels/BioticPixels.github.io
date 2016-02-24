@@ -14,7 +14,7 @@ Date: 24 February 2016 06:13:33
 ## 1. Table of Contents
 
 - [2. Introduction](#introduction)
-- [3. Computer Readable Standardised Licensing Agreements](#computer-readablestandardisedlicensingagreements)
+- [3. Computer-Readable Standardised Licensing Agreements](#computer-readablestandardisedlicensingagreements)
 - [4. Copyright License Enforcement](#copyrightlicenseenforcement)
 	- [4.1. Paid Proof of Publication](#paidproofofpublication)
 	- [4.2. Paid Content Match Detection](#paidcontentmatchdetection)
@@ -39,7 +39,7 @@ This is a proposal for an unofficial industry governing body providing centralis
 
 The system would consist of 3 parts:
 
-- [3. Computer Readable Standardised Licensing Agreements](#computer-readablestandardisedlicensingagreements)
+- [3. Computer-Readable Standardised Licensing Agreements](#computer-readablestandardisedlicensingagreements)
 - [4. Copyright License Enforcement](#copyrightlicenseenforcement)
 - [5. Paid Site-wide Copyright Regulation](#paidsite-widecopyrightregulation)
 
@@ -47,7 +47,7 @@ The system would consist of 3 parts:
 
 These are standardised public Internet computer-readable licenses that the ICIRA can verify the legitimacy of in a court case. They include agreements between 2 or more verified parties, publicly available paid licenses, declarations of fair use, and guaranteed means of legitimate attribution.
 
-The computer readability means that these licenses can automatically be cross-checked upon positive automatic content match, which largely avoids the false-positives of such systems.
+The computer-readability means that these licenses can automatically be cross-checked upon positive automatic content match, which largely avoids the false-positives of such systems.
 
 ## 4. Copyright License Enforcement
 
