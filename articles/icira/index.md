@@ -35,7 +35,7 @@ Use `command + up` or `control + up` to come back to the table of contents.
 
 ***Disclaimer:** This was not written by a lawyer. This is a speculative proposal and may not have any legal or practical merit. Skepticism is advised.*
 
-This is a proposal for an unofficial industry governing body providing centralised computer readable Internet copyright licensing creation, proof, detection, dispute, and site-wide regulation, as a convenient substitute to a full DMCA claim for the same case with regards to speed and cost.
+This is a proposal for an unofficial industry governing body providing centralised computer-readable Internet copyright licensing creation, proof, detection, dispute, and site-wide regulation, as a convenient substitute to a full DMCA claim for the same case with regards to speed and cost.
 
 The system would consist of 3 parts:
 
