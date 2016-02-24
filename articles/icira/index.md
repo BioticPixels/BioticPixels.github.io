@@ -14,19 +14,19 @@ Date: 24 February 2016 06:13:33
 ## 1. Table of Contents
 
 - [2. Introduction](#introduction)
-- [3. Computer Readable Standardised Licensing Agreements](#computerreadablestandardisedlicensingagreements)
+- [3. Computer Readable Standardised Licensing Agreements](#computer-readablestandardisedlicensingagreements)
 - [4. Copyright License Enforcement](#copyrightlicenseenforcement)
-	- [4.1. Paid Proof of Publication](#padeproofofpublication)
+	- [4.1. Paid Proof of Publication](#paidproofofpublication)
 	- [4.2. Paid Content Match Detection](#paidcontentmatchdetection)
-	- [4.3. High Stakes Copyright Dispute Mediation](#highstakescopyrightdisputmediation)
+	- [4.3. High Stakes Copyright Dispute Mediation](#highstakescopyrightdisputemediation)
 	- [4.4. Paid Class Action Lawsuits](#paidclassactionlawsuits)
-- [5. Paid Site-wide Copyright Regulation](#paidsitewidecopyrightregulation)
+- [5. Paid Site-wide Copyright Regulation](#paidsite-widecopyrightregulation)
 	- [5.1. License Verification](#licenseverification)
 	- [5.2. Settlement Terms Enforcement](#settlementtermsenforcement)
 		- [5.2.1. Proof of Upload](#proofofupload)
 		- [5.2.2. Proof of Revenue](#proofofrevenue)
 	- [5.3. User Requirements](#userrequirements)
-	- [5.4. Terms Infringement Fine](#termsinfringement)
+	- [5.4. Terms Infringement Fine](#termsinfringementfine)
 - [6. Conclusion](#conclusion)
 
 Use `command + up` or `control + up` to come back to the table of contents.
@@ -39,9 +39,9 @@ This is a proposal for an unofficial industry governing body providing centralis
 
 The system would consist of 3 parts:
 
-- [3. Computer Readable Standardised Licensing Agreements](#computerreadablestandardisedlicensingagreements)
+- [3. Computer Readable Standardised Licensing Agreements](#computer-readablestandardisedlicensingagreements)
 - [4. Copyright License Enforcement](#copyrightlicenseenforcement)
-- [5. Paid Site-wide Copyright Regulation](#paidsitewidecopyrightregulation)
+- [5. Paid Site-wide Copyright Regulation](#paidsite-widecopyrightregulation)
 
 ## 3. Computer-Readable Standardised Licensing Agreements
 
@@ -53,9 +53,9 @@ The computer readability means that these licenses can automatically be cross-ch
 
 These are services for copyright holders, and include:
 
-- [4.1. Paid Proof of Publication](#padeproofofpublication)
+- [4.1. Paid Proof of Publication](#paidproofofpublication)
 - [4.2. Paid Content Match Detection](#paidcontentmatchdetection)
-- [4.3. High Stakes Copyright Dispute Mediation](#highstakescopyrightdisputmediation)
+- [4.3. High Stakes Copyright Dispute Mediation](#highstakescopyrightdisputemediation)
 - [4.4. Paid Class Action Lawsuits](#paidclassactionlawsuits)
 
 ### 4.1. Paid Proof of Publication
@@ -86,7 +86,7 @@ There may be other settlements, such as paying any revenue the uploader has made
 
 If the accuser declines the settlement conditions, then the dispute is dropped and they must pay inconvenience damages to the uploader.
 
-### 4.4. Paid Class Action Lawsuit Participation
+### 4.4. Paid Class Action Lawsuits
 
 Content infringement cases against unregulated websites can also be accumulated to create a break even DMCA class action lawsuit by the ICIRA on the behalf of copyright holders. This means that the infringing site would need to pay for the fees of ICIRA, and the money the participants paid, along with the revenue they earned from the infringed material, and any further damages if the case is won.
 
@@ -99,7 +99,7 @@ The requirements includes:
 - [5.1. License Verification](#licenseverification)
 - [5.2. Settlement Terms Enforcement](#settlementtermsenforcement)
 - [5.3. User Requirements](#userrequirements)
-- [5.4. Terms Infringement Fine](#termsinfringement)
+- [5.4. Terms Infringement Fine](#termsinfringementfine)
 
 ### 5.1. License Verification
 
