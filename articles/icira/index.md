@@ -47,7 +47,7 @@ The system would consist of 3 parts:
 
 These are standardised public Internet computer-readable licenses that the ICIRA can verify the legitimacy of in a court case. They include agreements between 2 or more verified parties, publicly available paid licenses, declarations of fair use, and guaranteed means of legitimate attribution.
 
-The computer readability means that these licenses can automatically be cross-checked upon positive automatic content match, which largely avoids the false positives of such systems.
+The computer readability means that these licenses can automatically be cross-checked upon positive automatic content match, which largely avoids the false-positives of such systems.
 
 ## 4. Copyright License Enforcement
 
