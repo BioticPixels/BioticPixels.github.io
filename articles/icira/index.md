@@ -9,7 +9,7 @@ Date: 24 February 2016 06:13:33
 
 *This article is hosted on [GitHub](https://github.com/BioticPixels/BioticPixels/tree/gh-pages/articles "Articles github.com"). If there are any problems, open an [issue](https://github.com/BioticPixels/BioticPixels/issues "bioticpixels.com Issues github.com").*
 
-*Want to comment on this article? [It was posted on Reddit]( "reddit.com").*
+*Want to comment on this article? [It was posted on Reddit](https://redd.it/47bn8f "reddit.com").*
 
 ## 1. Table of Contents
 
