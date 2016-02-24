@@ -11,7 +11,7 @@
 
 *Want to comment on this article? [It was posted on Reddit](https://redd.it/3y668p "reddit.com").*
 
-## Table of Contents
+## 1. Table of Contents
 
 - [2. Introduction](#introduction)
     - [2.1. About the Images](#abouttheimages)
@@ -23,7 +23,7 @@
   - [4.2. Map Projection](#mapprojection)
 - [5. About the Data](#aboutthedata)
 
-## Introduction
+## 2. Introduction
 
 Here is the end product of the work done to convert global elevation data to the [Dymaxion map projection](https://bfi.org/about-fuller/big-ideas/dymaxion-world/dymaxion-map "Buckminster Fuller Institute bfi.org") with added shoreline data.
 
@@ -31,7 +31,7 @@ An elaboration of the conversion is presented [later in the article](#purposeand
 
 If there is enough interest, a step-by-step methodology of creating the images can be written later.
 
-### About the Images
+### 2.1. About the Images
 
 The images in this article are [PNGs](https://en.wikipedia.org/wiki/Portable_Network_Graphics "Portable Network Graphics wikipedia.org"), but also exist as [TIFFs](https://en.wikipedia.org/wiki/Tagged_Image_File_Format "Tagged Image File Format wikipedia.org"). The PNGs are at least [5K resolution](https://en.wikipedia.org/wiki/5K_resolution "5K resolution wikipedia.org") (5120x2880px), but the TIFFs are 43200x21600px. Here is a scale to show how big the originals really are:  
 ![Resolution Comparison](images/png/other/size_comparison_small.png "Resolution Comparison")
@@ -42,7 +42,7 @@ Here is a link to [all the images in this article](images "Article Images Includ
 
 The images were created using [GEBCO][0] elevation data with [VMap0][1] shoreline data overlayed using [QGIS](http://www.qgis.org/en/site/ "QGIS qgis.org") and [Photoshop](http://www.photoshop.com/products/photoshop "Photoshop photoshop.com"), and then Dymaxified using a modified Perl script, [dymaxify2.pl](https://github.com/BioticPixels/Dymaxify "Dymaxify Perl Scripts github.com").
 
-#### About the Script
+#### 2.1.2. About the Script
 
 dymaxify2.pl, the Dymaxify script, is a modified version of a script by Schuyler D. Erle, and was originally downloaded from http://iconocla.st/hacks/dymax/dymaxify.pl, however that site is no longer available, but can be found on [archive.org](https://archive.org/ "archive.org").
 
@@ -50,7 +50,7 @@ This script uses a Perl module called Geo::Dymaxion, again by Schuyler D. Erle, 
 
 As much as the script was easy to start running, the interpolation method is very crude and could be improved.
 
-## Images
+## 3. Images
 
 ![Original Elevation PNG](images/png/original_elevation.png "Original Elevation PNG")
 *The original elevation data. [Get the source data here][0].*
@@ -67,7 +67,7 @@ As much as the script was easy to start running, the interpolation method is ver
 ![Dymaxified Elevation with Oceans and Background PNG](images/png/all_small.png "Dymaxified Elevation with Oceans and Background PNG")
 *Dymaxified elevation data with the oceans (green) and background (red). Get the [full resolution TIFF here](https://drive.google.com/file/d/0B4ugcbzXgPzQNFdkazRuSmQ3ZUE/view?usp=sharing "Elevation with Oceans and Background TIFF") (114.2MB).*
 
-### Bonus
+### 3.1. Bonus
 
 This is what happens when the elevation data is put through the Dymaxify script twice at 5K resolution.
 
@@ -77,17 +77,17 @@ This is what happens when the elevation data is put through the Dymaxify script 
 ![Double Dymaxified Elevation with Oceans and Background PNG](images/png/all_dymaxified_small.png "Double Dymaxified Elevation with Oceans and Background PNG")
 *Dymaxified elevation data run through the Dymaxify script again, this time retaining the oceans (green) and background (red and blue) data.*
 
-## Purpose and Reasoning
+## 4. Purpose and Reasoning
 
 There are two reasons for producing these maps, high quality, easily accessible, realistic [two and a half dimensional (2.5D)](https://en.wikipedia.org/wiki/2.5D "2.5D wikipedia.org") terrain in the form of a [Digital Elevation Model](https://en.wikipedia.org/wiki/Digital_elevation_model "Digital Elevation Model wikipedia.org") (DEM), and in a low distortion 2D [map projection](https://en.wikipedia.org/wiki/Map_projection "Map Projection wikipedia.org") with minimum landmass interruption in the form of the [Dymaxion Projection][2].
 
-### Digital Elevation Maps (DEMs)
+### 4.1. Digital Elevation Maps (DEMs)
 
 The two main ways of creating realistic terrain data for digital manipulation are to either to simulate it using [geomorphological models](https://www.youtube.com/watch?v=kkuZtm7ENOA "Landscape Evolution youtube.com"), or use terrain data that already exists as a DEM, also known as height maps, which is elevation data converted to greyscale bitmap data.
 
 A DEM was chosen because simulating terrain formation is complicated, software currently built that does this is not easily accessible, and the results are not guaranteed to be entirely realistic. Whereas DEMs provide realistic data and is easy to acquire. The tradeoff is that DEMs may not be near the detail of simulated data, and the parameters for its creation are completely fixed which is not the case with simulated data.
 
-### Map Projection
+### 4.2. Map Projection
 
 [Map projections](https://en.wikipedia.org/wiki/Map_projection "Map Projection wikipedia.org") seeks to convert 2D data in 3D space, the surface of the Earth for example, to just 2D data.
 
@@ -95,7 +95,7 @@ DEMs are usually presented in the [equirectangular map projection](https://en.wi
 
 The Dymaxion Projection was chosen over the Waterman Butterfly Projection because the overall shape is more consistent, and fewer landmasses are intersected, namely Greenland.
 
-## About The Data
+## 5. About The Data
 
 The DESM was created using 'GEBCO' elevation data found at [NASA's Visible Earth][0], and 'VMap0' shoreline data found at [GIS Lab][1].
 
