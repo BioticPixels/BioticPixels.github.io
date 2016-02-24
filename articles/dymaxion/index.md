@@ -15,12 +15,12 @@
 
 - [2. Introduction](#introduction)
     - [2.1. About the Images](#abouttheimages)
-      - [2.1.1. About the Script](#aboutthescript)
+        - [2.1.1. About the Script](#aboutthescript)
 - [3. Images](#images)
-  - [3.1 Bonus](#bonus)
+    - [3.1 Bonus](#bonus)
 - [4. Purpose and Reasoning](#purposeandreasoning)
-  - [4.1.Digital Elevation Maps (DEMs)](#digitalelevationmapsdems)
-  - [4.2. Map Projection](#mapprojection)
+    - [4.1.Digital Elevation Maps (DEMs)](#digitalelevationmapsdems)
+    - [4.2. Map Projection](#mapprojection)
 - [5. About the Data](#aboutthedata)
 
 ## 2. Introduction
