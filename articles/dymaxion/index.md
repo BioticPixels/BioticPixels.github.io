@@ -23,6 +23,8 @@
     - [4.2. Map Projection](#mapprojection)
 - [5. About the Data](#aboutthedata)
 
+Use `command + up` or `control + up` to come back to the table of contents.
+
 ## 2. Introduction
 
 Here is the end product of the work done to convert global elevation data to the [Dymaxion map projection](https://bfi.org/about-fuller/big-ideas/dymaxion-world/dymaxion-map "Buckminster Fuller Institute bfi.org") with added shoreline data.
