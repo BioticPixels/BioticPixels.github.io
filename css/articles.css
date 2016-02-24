@@ -100,48 +100,48 @@ h5 {
 
 h6 {
   font-size: 1em; }
-/* Disabling automatic numbering until table of contents can be automatic.
+/* Disabling automatic numbering until table of contents can be automatic. */
 /* Automatic section numbering - level 1 */
-h1 {
-  counter-reset: section1;
-  /* Create section 1 counter scope (should only be one h1 in each document) */ }
+/* h1 {
+  counter-reset: section1; */
+  /* Create section 1 counter scope (should only be one h1 in each document) */ /* } */
 
-h2:before {
+/* h2:before {
   content: counter(section1) ". ";
   counter-increment: section1; }
 
 /* Automatic section numbering - level 2 */
-h2 {
+/* h2 {
   counter-reset: section2; }
 
 h3:before {
   content: counter(section1) "." counter(section2) " ";
-  counter-increment: section2; }
+  counter-increment: section2; } */
 
 /* Automatic section numbering - level 3 */
-h3 {
+/* h3 {
   counter-reset: section3; }
 
 h4:before {
   content: counter(section1) "." counter(section2) "." counter(section3) " ";
-  counter-increment: section3; }
+  counter-increment: section3; } */
 
 /* Automatic section numbering - level 4 */
-h4 {
+/* h4 {
   counter-reset: section4; }
 
 h5:before {
   content: counter(section1) "." counter(section2) "." counter(section3) "." counter(section4) " ";
-  counter-increment: section4; }
+  counter-increment: section4; } */
 
 /* Automatic section numbering - level 5 */
-h5 {
+/* h5 {
   counter-reset: section5; }
 
 h6:before {
   content: counter(section1) "." counter(section2) "." counter(section3) "." counter(section4) "." counter(section5) " ";
-  counter-increment: section5; }
-*/
+  counter-increment: section5; } */
+
 hr {
   margin-top: 1em;
   border-style: solid;
