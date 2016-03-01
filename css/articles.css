@@ -1,0 +1,245 @@
+/*
+----------
+Biotic Pixels 28 September 2013 06:36:06
+----------
+@TODO Make code (incline and blocks) more obvious
+*/
+/*
+----------
+Eric Meyer’s “Reset CSS” 2.0
+----------
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+----------
+Main Styles
+----------
+*/
+body {
+  color: rgb(51, 51, 51);
+  background: rgb(255, 255, 255);
+  font-size: 16em;
+  font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, sans-serif;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  max-width: 800px;
+  font-size: 1em; }
+
+h1, h2, h3, h4, h5, h6, #bioticPixels {
+  margin-top: 0.5em;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', Calibri, Arial, sans-serif;
+  letter-spacing: 0px;
+  line-height: 1;}
+
+h1 {
+  font-size: 3.5em;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2.5em; }
+
+h4 {
+  font-size: 2em; }
+
+h5 {
+  font-size: 1.5em; }
+
+h6 {
+  font-size: 1em; }
+/* Disabling automatic numbering until table of contents can be automatic. */
+/* Automatic section numbering - level 1 */
+/* h1 {
+  counter-reset: section1; */
+  /* Create section 1 counter scope (should only be one h1 in each document) */ /* } */
+
+/* h2:before {
+  content: counter(section1) ". ";
+  counter-increment: section1; }
+
+/* Automatic section numbering - level 2 */
+/* h2 {
+  counter-reset: section2; }
+
+h3:before {
+  content: counter(section1) "." counter(section2) " ";
+  counter-increment: section2; } */
+
+/* Automatic section numbering - level 3 */
+/* h3 {
+  counter-reset: section3; }
+
+h4:before {
+  content: counter(section1) "." counter(section2) "." counter(section3) " ";
+  counter-increment: section3; } */
+
+/* Automatic section numbering - level 4 */
+/* h4 {
+  counter-reset: section4; }
+
+h5:before {
+  content: counter(section1) "." counter(section2) "." counter(section3) "." counter(section4) " ";
+  counter-increment: section4; } */
+
+/* Automatic section numbering - level 5 */
+/* h5 {
+  counter-reset: section5; }
+
+h6:before {
+  content: counter(section1) "." counter(section2) "." counter(section3) "." counter(section4) "." counter(section5) " ";
+  counter-increment: section5; } */
+
+hr {
+  margin-top: 1em;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-width: 0.1em; }
+
+p {
+  font-size: inherit;
+  text-align: left;
+  padding-top: 0.5em; }
+
+a {
+  text-decoration: none;
+  color: rgb(0, 126, 223); }
+
+a:hover {
+  text-decoration: underline; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold; }
+
+pre, code {
+  font-family: Consolas, Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: inherit;
+  background-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: rgb(192, 192, 192);
+  border-radius: 0.3rem; }
+
+pre {
+  display: block;
+  padding-top: none;
+  margin-top: 1rem;
+  tab-size: 4;
+  white-space: pre-wrap; }
+
+code {
+  padding: 0.1rem;}
+
+pre code {
+  display: block;
+  padding: 0.5rem;
+  padding-top: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  background-color: none; }
+
+blockquote, ul, ol, dl {
+  /* margin-bottom: 1em; */
+  padding-left: 1.5rem; }
+
+blockquote {
+  color: #666;
+  border-left: 0.3rem solid #bbb; }
+
+ul, ol, dl {
+  padding-top: inherit;
+  font-size: inherit; }
+
+ul li, ol li {
+  padding-left: 0.1rem; }
+
+ul li {
+  list-style: disc; }
+
+ol li {
+  list-style: decimal; }
+
+nav {
+  text-align: center;
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem; }
+  
+nav li {
+  display: inline;
+  padding-left: 0rem; }
+
+nav ul {
+  padding-left: 0rem; }
+
+#bioticPixels {
+  font-size: 1rem;
+  display: inline;}
+
+#bioticPixelsImage {
+  height: 1rem;
+  width: 1rem;
+  margin-top: -0.1rem;
+  margin-bottom: -0.6rem;
+  margin-left: 0.3rem;
+  display: inline; }
+
+img {
+  display: block;
+  max-width: 100%;
+}

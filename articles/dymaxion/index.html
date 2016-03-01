@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<!------------>
+<!-- Biotic Pixels 25 December 2015 04:56:43 -->
+<!------------>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="http://bioticpixels.com/css/articles.css">
+            <link rel="shortcut icon" type="image/png" href="http://bioticpixels.com/images/favicon.png">
+                <script type="text/javascript" src="http://bioticpixels.com/javascript/dynamicScaling.js"></script>
+                <script type="text/javascript" src="http://bioticpixels.com/javascript/articles.js"></script>
+                <title>Dymaxion Elevation and Shoreline Map (DESM) | Biotic Pixels</title>
+                <meta charset="utf-8"/>
+                </head>
+    
+    <body>
+        
+        <div>
+            <img id="bioticPixelsImage" src="http://bioticpixels.com/images/Biotic Pixels 1.png" alt="Biotic Pixels image.">
+                <p id="bioticPixels">Biotic Pixels</p>
+                </div>
+        
+        <nav>
+            <ul>
+                <li><a href="http://bioticpixels.com" title="bioticpixels.com">Home</a> |</li>
+                <li><a href="http://bioticpixels.com/articles" title="bioticpixels.com/articles">Articles</a> |</li>
+                <li><a href="mailto:bioticpixels@gmail.com" title="bioticpixel@gmail.com">Email</a> |</li>
+                <li><a href="https://github.com/BioticPixels" title="github.com/BioticPixels">GitHub</a> |</li>
+                <li><a href="http://bioticpixels.com/supporting" title="bioticpixels.com/supporting">Supporting</a> |</li>
+                <li><a href="http://bioticpixels.com/articles/about" title="About Biotic Pixels">About</a></li>
+            </ul>
+        </nav>
+        
+        <hr>
+
+		<p><em>If you enjoy this article, please consider <a href="bioticpixels.com/supporting" title="Supporting Biotic Pixels">donating</a>.</em></p>
+
+		<h1 id="dymaxionelevationandshorelinemapdesm">Dymaxion Elevation and Shoreline Map (DESM)</h1>
+
+		<p><em>Date: 23 December 2015 01:12:21</em><br/>
+		<em>By: Biotic Pixels</em></p>
+
+		<p><em>This article is hosted on <a href="https://github.com/BioticPixels/BioticPixels/tree/gh-pages/articles" title="Articles github.com">GitHub</a>. If there are any problems, open an <a href="https://github.com/BioticPixels/BioticPixels/issues" title="bioticpixels.com Issues github.com">issue</a>.</em></p>
+
+		<p><em>Want to comment on this article? <a href="https://redd.it/3y668p" title="reddit.com">It was posted on Reddit</a>.</em></p>
+
+		<h2 id="tableofcontents">1. Table of Contents</h2>
+
+		<ul>
+		<li><a href="#introduction">2. Introduction</a>
+
+		<ul>
+		<li><a href="#abouttheimages">2.1. About the Images</a>
+
+		<ul>
+		<li><a href="#aboutthescript">2.1.1. About the Script</a></li>
+		</ul></li>
+		</ul></li>
+		<li><a href="#images">3. Images</a>
+
+		<ul>
+		<li><a href="#bonus">3.1 Bonus</a></li>
+		</ul></li>
+		<li><a href="#purposeandreasoning">4. Purpose and Reasoning</a>
+
+		<ul>
+		<li><a href="#digitalelevationmapsdems">4.1.Digital Elevation Maps (DEMs)</a></li>
+		<li><a href="#mapprojection">4.2. Map Projection</a></li>
+		</ul></li>
+		<li><a href="#aboutthedata">5. About the Data</a></li>
+		</ul>
+
+		<p>Use <code>command + up</code> or <code>control + up</code> to come back to the table of contents.</p>
+
+		<h2 id="introduction">2. Introduction</h2>
+
+		<p>Here is the end product of the work done to convert global elevation data to the <a href="https://bfi.org/about-fuller/big-ideas/dymaxion-world/dymaxion-map" title="Buckminster Fuller Institute bfi.org">Dymaxion map projection</a> with added shoreline data.</p>
+
+		<p>An elaboration of the conversion is presented <a href="#purposeandreasoning" title="Purpose and Reasoning">later in the article</a>.</p>
+
+		<p>If there is enough interest, a step-by-step methodology of creating the images can be written later.</p>
+
+		<h3 id="abouttheimages">2.1. About the Images</h3>
+
+		<p>The images in this article are <a href="https://en.wikipedia.org/wiki/Portable_Network_Graphics" title="Portable Network Graphics wikipedia.org">PNGs</a>, but also exist as <a href="https://en.wikipedia.org/wiki/Tagged_Image_File_Format" title="Tagged Image File Format wikipedia.org">TIFFs</a>. The PNGs are at least <a href="https://en.wikipedia.org/wiki/5K_resolution" title="5K resolution wikipedia.org">5K resolution</a> (5120x2880px), but the TIFFs are 43200x21600px. Here is a scale to show how big the originals really are:<br/>
+		<img src="images/png/other/size_comparison_small.png" alt="Resolution Comparison" title="Resolution Comparison" /></p>
+
+		<p>If the GEBCO image was printed at <a href="https://en.wikipedia.org/wiki/Dots_per_inch" title="Dots Per Inch wikipedia.org">300dpi</a> it would be about the <a href="https://en.wikipedia.org/wiki/Human_height#Average_height_around_the_world" title="Human Height wikipedia.org">size of an average human being</a> at 1.83 metres tall.</p>
+
+		<p>Here is a link to <a href="images" title="Article Images Including TIFFs">all the images in this article</a>, including the original, full resolution TIFFs, and 5K resolution PNGs.</p>
+
+		<p>The images were created using <a href="http://visibleearth.nasa.gov/view.php?id=73934" title="NASA Visible Earth visibleearth.nasa.gov">GEBCO</a> elevation data with <a href="http://gis-lab.info/qa/vmap0-eng.html" title="gis-lab.info">VMap0</a> shoreline data overlayed using <a href="http://www.qgis.org/en/site/" title="QGIS qgis.org">QGIS</a> and <a href="http://www.photoshop.com/products/photoshop" title="Photoshop photoshop.com">Photoshop</a>, and then Dymaxified using a modified Perl script, <a href="https://github.com/BioticPixels/Dymaxify" title="Dymaxify Perl Scripts github.com">dymaxify2.pl</a>.</p>
+
+		<h4 id="aboutthescript">2.1.2. About the Script</h4>
+
+		<p>dymaxify2.pl, the Dymaxify script, is a modified version of a script by Schuyler D. Erle, and was originally downloaded from http://iconocla.st/hacks/dymax/dymaxify.pl, however that site is no longer available, but can be found on <a href="https://archive.org/" title="archive.org">archive.org</a>.</p>
+
+		<p>This script uses a Perl module called Geo::Dymaxion, again by Schuyler D. Erle, and can be found at <a href="https://metacpan.org/pod/Geo::Dymaxion" title="metacpan.org">The Comprehensive Perl Archive Network (CPAN)</a>. It plots latitude/longitude on a Fuller Dymaxion map, and the script gave an easy way to do this.</p>
+
+		<p>As much as the script was easy to start running, the interpolation method is very crude and could be improved.</p>
+
+		<h2 id="images">3. Images</h2>
+
+		<p><img src="images/png/original_elevation.png" alt="Original Elevation PNG" title="Original Elevation PNG" />
+		<em>The original elevation data. <a href="http://visibleearth.nasa.gov/view.php?id=73934" title="NASA Visible Earth visibleearth.nasa.gov">Get the source data here</a>.</em></p>
+
+		<p><img src="images/png/elevation_small.png" alt="Dymaxified Elevation PNG" title="Dymaxified Elevation PNG" />
+		<em>Dymaxified elevation data with no background. Get the <a href="https://drive.google.com/file/d/0B4ugcbzXgPzQWkRORjJWVEtkWTA/view?usp=sharing" title="Elevation TIFF">full resolution TIFF here</a> (93.5MB).</em></p>
+
+		<p><img src="images/png/original_elevation_alpha_small.png" alt="Original Elevation with Alpha PNG" title="Original Elevation with Alpha PNG" />
+		<em>Elevation data with the oceans converted to alpha.</em></p>
+
+		<p><img src="images/png/elevation_alpha_small.png" alt="Dymaxified Elevation with Alpha PNG" title="Dymaxified Elevation with Alpha PNG" />
+		<em>Dymaxified elevation data with the oceans and background converted to alpha. Get the <a href="https://drive.google.com/file/d/0B4ugcbzXgPzQVEduYkI3S1J1bTQ/view?usp=sharing" title="Elevation with Alpha TIFF">full resolution TIFF here</a> (149.7MB).</em></p>
+
+		<p><img src="images/png/all_small.png" alt="Dymaxified Elevation with Oceans and Background PNG" title="Dymaxified Elevation with Oceans and Background PNG" />
+		<em>Dymaxified elevation data with the oceans (green) and background (red). Get the <a href="https://drive.google.com/file/d/0B4ugcbzXgPzQNFdkazRuSmQ3ZUE/view?usp=sharing" title="Elevation with Oceans and Background TIFF">full resolution TIFF here</a> (114.2MB).</em></p>
+
+		<h3 id="bonus">3.1. Bonus</h3>
+
+		<p>This is what happens when the elevation data is put through the Dymaxify script twice at 5K resolution.</p>
+
+		<p><img src="images/png/landmass_alpha_dymaxified_small.png" alt="Double Dymaxified Elevation with Alpha PNG" title="Double Dymaxified Elevation with Alpha PNG" />
+		<em>Dymaxified elevation data run through the Dymaxify script again, converting everything but the landmasses to alpha.</em></p>
+
+		<p><img src="images/png/all_dymaxified_small.png" alt="Double Dymaxified Elevation with Oceans and Background PNG" title="Double Dymaxified Elevation with Oceans and Background PNG" />
+		<em>Dymaxified elevation data run through the Dymaxify script again, this time retaining the oceans (green) and background (red and blue) data.</em></p>
+
+		<h2 id="purposeandreasoning">4. Purpose and Reasoning</h2>
+
+		<p>There are two reasons for producing these maps, high quality, easily accessible, realistic <a href="https://en.wikipedia.org/wiki/2.5D" title="2.5D wikipedia.org">two and a half dimensional (2.5D)</a> terrain in the form of a <a href="https://en.wikipedia.org/wiki/Digital_elevation_model" title="Digital Elevation Model wikipedia.org">Digital Elevation Model</a> (DEM), and in a low distortion 2D <a href="https://en.wikipedia.org/wiki/Map_projection" title="Map Projection wikipedia.org">map projection</a> with minimum landmass interruption in the form of the <a href="https://en.wikipedia.org/wiki/Dymaxion_map" title="Dymaxion Projection wikipedia.org">Dymaxion Projection</a>.</p>
+
+		<h3 id="digitalelevationmapsdems">4.1. Digital Elevation Maps (DEMs)</h3>
+
+		<p>The two main ways of creating realistic terrain data for digital manipulation are to either to simulate it using <a href="https://www.youtube.com/watch?v=kkuZtm7ENOA" title="Landscape Evolution youtube.com">geomorphological models</a>, or use terrain data that already exists as a DEM, also known as height maps, which is elevation data converted to greyscale bitmap data.</p>
+
+		<p>A DEM was chosen because simulating terrain formation is complicated, software currently built that does this is not easily accessible, and the results are not guaranteed to be entirely realistic. Whereas DEMs provide realistic data and is easy to acquire. The tradeoff is that DEMs may not be near the detail of simulated data, and the parameters for its creation are completely fixed which is not the case with simulated data.</p>
+
+		<h3 id="mapprojection">4.2. Map Projection</h3>
+
+		<p><a href="https://en.wikipedia.org/wiki/Map_projection" title="Map Projection wikipedia.org">Map projections</a> seeks to convert 2D data in 3D space, the surface of the Earth for example, to just 2D data.</p>
+
+		<p>DEMs are usually presented in the <a href="https://en.wikipedia.org/wiki/Equirectangular_projection" title="Equirectangular Projection wikipedia.org">equirectangular map projection</a>, which possess large amounts of unwanted distortion particularly at the poles, so a map projection with much less distortion is needed. One such projection is the <a href="https://en.wikipedia.org/wiki/Dymaxion_map" title="Dymaxion Projection wikipedia.org">Dymaxion map projection</a>, another being the <a href="https://en.wikipedia.org/wiki/Waterman_butterfly_projection" title="Waterman Butterfly Projection wikipedia.org">Waterman butterfly projection</a>. Both these projections essentially transform the <a href="https://en.wikipedia.org/wiki/Spheroid" title="Spheroid wikipedia.org">spheroid</a> Earth to a 3D shape with flat sides, such as a <a href="https://en.wikipedia.org/wiki/Polyhedron" title="Polyhedron wikipedia.org">polyhedron</a>, which is then unfolded while attempting to avoid splitting the shape on edges that intersect land.</p>
+
+		<p>The Dymaxion Projection was chosen over the Waterman Butterfly Projection because the overall shape is more consistent, and fewer landmasses are intersected, namely Greenland.</p>
+
+		<h2 id="aboutthedata">5. About The Data</h2>
+
+		<p>The DESM was created using &#8216;GEBCO&#8217; elevation data found at <a href="http://visibleearth.nasa.gov/view.php?id=73934" title="NASA Visible Earth visibleearth.nasa.gov">NASA&#8217;s Visible Earth</a>, and &#8216;VMap0&#8217; shoreline data found at <a href="http://gis-lab.info/qa/vmap0-eng.html" title="gis-lab.info">GIS Lab</a>.</p>
+
+		<p>There is better data than the &#8216;GEBCO&#8217; DEM data, namely &#8216;ASTER GDEM&#8217; found at <a href="http://gdem.ersdac.jspacesystems.or.jp/search.jsp" title="jspacesystems.or.jp">Joint Space Systems</a> and <a href="http://gdex.cr.usgs.gov/gdex/" title="usgs.gov">the United States Geological Survey (USGS)</a>, however this is considerably higher resolution, and would have taken a considerably longer period of time to process (read weeks), and would be better done with a unified script.</p>
+
+		<p>There is also better coastline data, namely &#8216;Global Shoreline Data&#8217; found at <a href="http://msi.nga.mil/NGAPortal/DNC.portal?_nfpb=true&amp;_pageLabel=dnc_portal_page_72" title="nga.mil">the National Geospatial-Intelligence Agency (NGA)</a>, however this would take quite some time to put together.</p>
+
+		<p>Many useful links were found in <a href="http://library.oceanteacher.org/OTMediawiki/index.php/Coastlines_and_Land_Masks#World_Vector_Shoreline_.28WVS.29" title="oceanteacher.org">an article on OceanTeacher.org</a>.</p>
+        
+    </body>
+</html>
